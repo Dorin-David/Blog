@@ -9,6 +9,7 @@ function NavBar() {
         </Link>
         <Link href="/">Home</Link>
         <Link href="/categorie">Esplora</Link>
+        <Link href="/autori">Autori</Link>
         <Link href="/about">About</Link>
         <BiSearch className={style.search} />
     </nav>

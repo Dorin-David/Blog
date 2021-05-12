@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../../sass/components/article.module.scss","../../sass/abstract/_colors.scss"],"names":[],"mappings":"AAEA;EACI;;AAGD;EACI;EACA;;AAEJ;EACI;EACA,OCXE;;ADcN;AAAA;EAEI;EACA;EACA,OCnBG;;ADsBN;EACI;;AAGJ;EACI;;AAEJ;EACI;EACA;EACA;EACA;EACA;;AAEJ;EACI;EACA;EACA;EACA;;AAGJ;AAAA;EAEI;EACA","file":"article.module.css"}

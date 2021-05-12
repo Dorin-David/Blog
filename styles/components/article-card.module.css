@@ -1,0 +1,73 @@
+.card {
+  width: 700px;
+  height: 350px;
+  margin: 2rem auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  border-radius: 4px;
+}
+.card h1,
+.card .header,
+.card .author,
+.card p {
+  position: relative;
+  z-index: 5;
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+.card .header {
+  font-size: 1.4rem;
+}
+.card .author {
+  align-self: center;
+  margin: 0.5rem;
+  margin-left: 30%;
+  z-index: 10;
+  transition: all 0.3s ease;
+}
+.card h1 {
+  font-size: 3.2rem;
+}
+.card img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.card p {
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(1, 1, 1, 0.5);
+  z-index: 2;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+.card:hover .overlay {
+  background: rgba(1, 1, 1, 0.3);
+}
+
+.author:hover {
+  text-decoration: underline 2px white;
+}
+
+/*# sourceMappingURL=article-card.module.css.map */

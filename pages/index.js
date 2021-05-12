@@ -1,7 +1,11 @@
+import { database } from '../mock-database';
+import ArticlesList from '../components/ArticlesList';
+
+
 function Home() {
   return (
     <div >
-      <h1>Home page Bro!</h1>
+      <ArticlesList articles={database} />
     </div>
   )
 }

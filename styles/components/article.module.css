@@ -1,0 +1,43 @@
+.article {
+  padding: 1rem;
+}
+.article h1 {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+.article h2 {
+  margin-top: 10px;
+  color: #766e6e;
+}
+.article h2::before,
+.article h2::after {
+  font-size: 2rem;
+  padding: 2px;
+  color: #a59e9e;
+}
+.article h2::before {
+  content: open-quote;
+}
+.article h2::after {
+  content: close-quote;
+}
+.article p {
+  min-width: 250px;
+  width: 70%;
+  margin: 1rem auto;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+.article .author {
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 0;
+  transition: all 0.4s ease;
+}
+.article .author:hover,
+.article .author:active {
+  cursor: pointer;
+  text-decoration: underline 2px;
+}
+
+/*# sourceMappingURL=article.module.css.map */
