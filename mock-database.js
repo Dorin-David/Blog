@@ -34,3 +34,12 @@ export const database = [
         annuiva, non avrebbe piu' saputo dire a chi aveva risposto, a chi aveva annuito.`
     }
 ]
+
+export const authors = {
+    'Dorin David': {
+        name: 'Dorin David',
+        img: '/assets/authors/Dorin_David.jpg',
+        bio: 'Passionate about writing since I was a child, I want to share lorem ipsum ipsorum. And this is how I begun.',
+        author_path: '/autori/dorin_david'
+    }
+}

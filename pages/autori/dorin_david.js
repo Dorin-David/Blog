@@ -1,19 +1,22 @@
 import ArticlesList from '../../components/ArticlesList';
-import {database} from '../../mock-database';
+import AuthorCard from '../../components/Authors/AuthorCard';
+import { database, authors } from '../../mock-database';
+
 
 //should have a wrapper?
-function Author(){
-    //could also figure out something more dymanic, via query property on router,
-    // but since pages are pretty static we can also use the author identifier
-    const authorArticles = database.filter(article => article.author === 'Dorin David')
+function Author() {
+  const author = authors['Dorin David']
+  const authorArticles = database.filter(article => article.author === 'Dorin David')
   return (
-      <>
-      <h1>Dorin David</h1>
-      <p>Lorem ipsum lalal, he started lala lala Lorem ipsum lalal, he started lala lala Lorem ipsum lalal, he started lala lala</p>
-      <p>Lorem ipsum lalal, he started lala lala Lorem ipsum lalal, he started lala lala Lorem ipsum lalal, he started lala lala</p>
-      <h1>Articoli</h1>
-      <ArticlesList articles={authorArticles}/>
-      </>
+    <>
+       <AuthorCard 
+         author_name={author.name}
+         author_bio={author.bio}
+         img={author.img}
+       />
+      {/* <h1>Articoli</h1> */}
+      <ArticlesList articles={authorArticles} />
+    </>
   )
 }
 

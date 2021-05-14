@@ -1,0 +1,31 @@
+@use '../abstract/index' as *;
+
+.author-card {
+  width: 80%;
+  height: 250px;
+  margin: 1rem auto;
+  padding: 1rem;
+  box-shadow: 0 2px 1px #ccc;
+  display: flex;
+  align-items: center;
+
+      img {
+        display: block;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .author-bio {
+        width: 75%;
+        margin-left: auto;
+        h1 {
+            margin-bottom: 0;
+        }
+        p {
+            font-size: 1.1rem;
+        }
+    }
+
+}

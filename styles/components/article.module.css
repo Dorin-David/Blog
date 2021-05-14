@@ -29,6 +29,7 @@
   line-height: 1.5;
 }
 .article .author {
+  width: 150px;
   font-size: 1.3rem;
   text-align: center;
   margin-bottom: 0;
