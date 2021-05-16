@@ -1,4 +1,4 @@
-import ArticlesList from '../../components/ArticlesList';
+import ArticlesList from '../../components/Articles/ArticlesList';
 import AuthorCard from '../../components/Authors/AuthorCard';
 import { database, authors } from '../../mock-database';
 
@@ -14,7 +14,7 @@ function Author() {
          author_bio={author.bio}
          img={author.img}
        />
-      {/* <h1>Articoli</h1> */}
+
       <ArticlesList articles={authorArticles} />
     </>
   )

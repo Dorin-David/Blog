@@ -3,7 +3,7 @@ import ArticleCard from './ArticleCard'
 function ArticlesList(props) {
     return  props.articles.map(article => {
             return <ArticleCard
-                key={article.author_path}
+                key={article.title}
                 path={article.article_path}
                 author_path={article.author_path}
                 title={article.title}
@@ -11,6 +11,7 @@ function ArticlesList(props) {
                 author={article.author}
                 description={article.description}
                 img={article.img}
+                position={article.position ? article.position : null}
 
             />
         })

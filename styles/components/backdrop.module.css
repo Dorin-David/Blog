@@ -1,0 +1,20 @@
+.backdrop {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  display: none;
+}
+.backdrop div {
+  width: 100%;
+  border: 2px solid white;
+}
+
+@media (max-width: 600px) {
+  .backdrop {
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=backdrop.module.css.map */

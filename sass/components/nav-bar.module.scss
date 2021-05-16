@@ -12,6 +12,7 @@
     background: #121212;
     a,
     .search {
+        cursor: pointer;
         color: white;
         margin: auto 10px;
         font-size: 1.2rem;
@@ -19,8 +20,22 @@
 }
 
 .main-header {
+    cursor: pointer;
    font-size: 2rem;
    color: white;
    margin-right: auto;
    margin-left: 70px;
+}
+
+@media (max-width: 600px){
+    .nav-links {
+        display: none;
+    }
+    .nav-bar {
+        justify-content: center;
+    }
+    .main-header {
+        margin-left: 0;
+    }
+ 
 }

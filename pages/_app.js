@@ -3,8 +3,8 @@ import '../styles/main.css'
 
 function MyApp({ Component, pageProps }) {
   return <>
-  <NavBar></NavBar>
-  <Component {...pageProps} />
+    <NavBar></NavBar>
+    <Component {...pageProps} />
   </>
 }
 

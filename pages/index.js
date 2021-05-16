@@ -1,5 +1,5 @@
 import { database } from '../mock-database';
-import ArticlesList from '../components/ArticlesList';
+import ArticlesList from '../components/Articles/ArticlesList';
 
 
 function Home() {

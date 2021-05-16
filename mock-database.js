@@ -2,6 +2,18 @@
 
 export const database = [
     {
+        title: `L'artista`,
+        header: 'Ovvero il lebbroso',
+        author: 'Dorin David',
+        author_path: 'autori/dorin_david',
+        article_path: '/articoli/artista',
+        img: '/assets/prometheus-1883_bocklin.jpg',
+        description: `"E’ proprio nella misura in cui sono inconsci, semplici strumenti, che il loro lavoro è fondamentale; 
+        essi sono un ponte tra l’ordinario e il Mistero, sono gli iniziati e i guardiani del cancello verso l’ignoto dentro ognuno di noi"`,
+        position: 'center top'
+
+    },
+    {
         title: 'Alan Watts',
         header: '\"Vuoto e meraviglioso\"',
         author: 'Dorin David',
@@ -19,7 +31,8 @@ export const database = [
         author_path: 'autori/dorin_david',
         article_path: '/articoli/gombrowicz',
         img: '/assets/gombrowicz.jpg',
-        description: 'Witold Gombrowicz was bla bla, and therefore to be read because of lalaa'
+        description: 'Witold Gombrowicz was bla bla, and therefore to be read because of lalaa',
+        position: 'center bottom'
     },
     {
         title: 'Le voci',
@@ -32,7 +45,7 @@ export const database = [
         e dato che il tono e le sembianze (quando ne avevano) erano, pure, simili, 
         non riusciva piu' a distinguere gli uni dagli altri, e quando rispondeva, o 
         annuiva, non avrebbe piu' saputo dire a chi aveva risposto, a chi aveva annuito.`
-    }
+    },
 ]
 
 export const authors = {

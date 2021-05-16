@@ -23,6 +23,8 @@
 }
 .author-card .author-bio p {
   font-size: 1.1rem;
+  width: 80%;
+  margin: auto;
 }
 
 /*# sourceMappingURL=author-card.module.css.map */

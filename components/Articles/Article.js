@@ -1,4 +1,4 @@
-import style from '../styles/components/article.module.css'
+import style from '../../styles/components/article.module.css'
 
 function Article(props){
     //style below (for loaded page)
