@@ -27,17 +27,20 @@
   margin-left: 70px;
 }
 
-@media (max-width: 600px) {
-  .nav-links {
-    display: none;
-  }
+.nav-links {
+  display: flex;
+}
 
+@media (max-width: 600px) {
   .nav-bar {
     justify-content: center;
   }
+  .nav-bar .nav-links {
+    display: none;
+  }
 
   .main-header {
-    margin-left: 0;
+    margin-left: 1rem;
   }
 }
 

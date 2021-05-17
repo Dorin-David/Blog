@@ -1,15 +1,31 @@
 import Link from 'next/link';
-import { BiSearch } from 'react-icons/bi';
 import style from '../styles/components/nav-bar.module.css';
 
 
-function NavLinks() {
+function NavLinks(props) {
     return (<div className={style['nav-links']}>
-        <Link href="/">Home</Link>
-        <Link href="/categorie">Esplora</Link>
-        <Link href="/autori">Autori</Link>
-        <Link href="/about">Progetto</Link>
-        <BiSearch className={style.search} />
+   {/* thanks to @CorwinCZ for the below workaround, https://github.com/vercel/next.js/issues/1490 */}
+
+        <Link href='/'>
+            <div>
+                <a onClick={props.onNavigation}>Home</a>
+            </div>
+        </Link>
+        <Link href='/categorie'>
+            <div>
+                <a onClick={props.onNavigation}>Esplora</a>
+            </div>
+        </Link>
+        <Link href='/autori'>
+            <div>
+                <a onClick={props.onNavigation}>Autori</a>
+            </div>
+        </Link>
+        <Link href='/about'>
+            <div>
+                <a onClick={props.onNavigation}>Progetto</a>
+            </div>
+        </Link>
     </div>)
 }
 

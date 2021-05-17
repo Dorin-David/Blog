@@ -1,6 +1,7 @@
 .backdrop {
-  width: 30px;
-  height: 30px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -8,7 +9,7 @@
 }
 .backdrop div {
   width: 100%;
-  border: 2px solid white;
+  border: 1px solid white;
 }
 
 @media (max-width: 600px) {

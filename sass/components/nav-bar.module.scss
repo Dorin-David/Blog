@@ -10,6 +10,7 @@
     left: 0;
     z-index: 50;
     background: #121212;
+
     a,
     .search {
         cursor: pointer;
@@ -27,15 +28,19 @@
    margin-left: 70px;
 }
 
+.nav-links {
+    display: flex;
+}
+
 @media (max-width: 600px){
-    .nav-links {
-        display: none;
-    }
     .nav-bar {
         justify-content: center;
+        .nav-links {
+            display: none;
+        }
     }
     .main-header {
-        margin-left: 0;
+        margin-left: 1rem;
     }
  
 }

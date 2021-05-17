@@ -1,9 +1,9 @@
-import NavBar from '../components/NavBar';
-import '../styles/main.css'
+import Navigation from '../components/Navigation';
+import '../styles/main.css';
 
 function MyApp({ Component, pageProps }) {
   return <>
-    <NavBar></NavBar>
+    <Navigation />
     <Component {...pageProps} />
   </>
 }
