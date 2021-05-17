@@ -1,0 +1,24 @@
+.search-bar {
+  width: 140px;
+  background: #333131;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.search-bar input {
+  width: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.search {
+  cursor: pointer;
+  color: white;
+  margin: auto 10px;
+  font-size: 1.8rem;
+}
+
+/*# sourceMappingURL=search.module.css.map */
