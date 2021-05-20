@@ -1,11 +1,16 @@
 .author-card {
   width: 80%;
-  height: 250px;
-  margin: 1rem auto;
+  min-height: 250px;
+  height: auto;
+  margin: 2rem auto;
   padding: 1rem;
-  box-shadow: 0 2px 1px #ccc;
+  box-shadow: 1px 4px 2px #b7acac;
   display: flex;
   align-items: center;
+  justify-content: space-around;
+  background: #18191a;
+  border-radius: 4px 20px;
+  color: white;
 }
 .author-card img {
   display: block;
@@ -14,17 +19,20 @@
   border-radius: 50%;
   object-fit: cover;
 }
-.author-card .author-bio {
-  width: 75%;
-  margin-left: auto;
-}
-.author-card .author-bio h1 {
-  margin-bottom: 0;
-}
 .author-card .author-bio p {
   font-size: 1.1rem;
   width: 80%;
   margin: auto;
+}
+
+@media (max-width: 600px) {
+  .author-card {
+    flex-direction: column;
+  }
+  .author-card img {
+    width: 150px;
+    height: 150px;
+  }
 }
 
 /*# sourceMappingURL=author-card.module.css.map */

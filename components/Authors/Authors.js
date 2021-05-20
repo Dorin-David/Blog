@@ -18,6 +18,7 @@ function Authors() {
             author_bio={info.bio}
             img={info.img}
             click={onNavigateToAuthor.bind(null, info.author_path)}
+            navigate={true}
         />
     })
 }

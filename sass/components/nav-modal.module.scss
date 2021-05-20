@@ -10,6 +10,7 @@
   background: $nav-modal;
   border-radius: 4px;
   > div {
+    height: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,9 +30,17 @@
 .nav-modal-backdrop {
     width: 100%;
     height: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 60;
     background: rgba(1, 1, 1, .6);
+}
+
+
+@media (max-width: 400px){
+  .nav-modal {
+    width: 100%;
+    height: 300px;
+  }
 }

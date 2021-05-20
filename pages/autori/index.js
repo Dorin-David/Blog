@@ -1,9 +1,10 @@
 import Authors from '../../components/Authors/Authors';
+import Header from '../../components/SectionHeader';
 
 function Autori() {
     return (
         <>
-            <h1>Autori</h1>
+            <Header>Autori</Header>
             <Authors />
         </>
     )
