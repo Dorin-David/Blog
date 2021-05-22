@@ -73,7 +73,8 @@
   transition: all 0.3s ease;
 }
 
-.card:hover {
+.card:hover,
+.card:active {
   cursor: pointer;
   .header-wrapper {
     margin: 1rem;

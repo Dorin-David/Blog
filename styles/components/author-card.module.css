@@ -20,7 +20,8 @@
   object-fit: cover;
 }
 .author-card .author-bio p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  line-height: 1.4;
   width: 80%;
   margin: auto;
 }

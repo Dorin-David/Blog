@@ -13,20 +13,6 @@
        color: $header;
    }
    
-   h2::before, 
-   h2::after {
-       font-size: 2rem;
-       padding: 2px;
-       color: $grayish;
-    }
-    
-    h2::before {
-        content: open-quote;
-        
-    }
-    h2::after {
-        content: close-quote;
-    }
     p {
         min-width: 250px;
         width: 70%;
@@ -47,6 +33,16 @@
         cursor: pointer;
         text-decoration: underline 2px;
        
+    }
+
+    .credit {
+        font-size: 0.9rem;
+        color: $credit-image;
+    }
+    .date {
+        font-size: initial;
+        text-align: end;
+        color: $date;
     }
 
 }

@@ -22,6 +22,8 @@ function Article(){
              Teatro di contraddizioni, vittima di incessanti lotte intestine, la forma lo ripugna e lo affascina; la vita, per lui, è Madre e Nemica a un tempo. Metà umano, metà spettro, non appartiene né al qui, né all’aldilà; è sempre in ritardo, o troppo in anticipo. Se iniziano a comprenderlo, il suo compito è finito, non ha più nulla da dire. 
              La sua unica, possibile felicità è fuori dall’arte o nell’accettazione, genuina, umile, della sua condizione di lebbroso. Per fortuna non sono un vero artista. 
          </p>
+         <p className={style.date}>marzo 2021</p>
+         <p className={style.credit}>(Immagine: "Prometheus", Arnold Böcklin, 1883)</p>
     </ArticleWrapper>)
 }
 

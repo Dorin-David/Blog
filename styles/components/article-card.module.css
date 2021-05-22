@@ -67,16 +67,20 @@
   transition: all 0.3s ease;
 }
 
-.card:hover {
+.card:hover,
+.card:active {
   cursor: pointer;
 }
-.card:hover .header-wrapper {
+.card:hover .header-wrapper,
+.card:active .header-wrapper {
   margin: 1rem;
 }
-.card:hover .description-wrapper {
+.card:hover .description-wrapper,
+.card:active .description-wrapper {
   margin-top: 1rem;
 }
-.card:hover .overlay {
+.card:hover .overlay,
+.card:active .overlay {
   background: rgba(1, 1, 1, 0.5);
 }
 

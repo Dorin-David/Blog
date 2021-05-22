@@ -7,19 +7,7 @@
 }
 .article h2 {
   margin-top: 10px;
-  color: #766e6e;
-}
-.article h2::before,
-.article h2::after {
-  font-size: 2rem;
-  padding: 2px;
-  color: #a59e9e;
-}
-.article h2::before {
-  content: open-quote;
-}
-.article h2::after {
-  content: close-quote;
+  color: #4b4a4a;
 }
 .article p {
   min-width: 250px;
@@ -39,6 +27,15 @@
 .article .author:active {
   cursor: pointer;
   text-decoration: underline 2px;
+}
+.article .credit {
+  font-size: 0.9rem;
+  color: #787676;
+}
+.article .date {
+  font-size: initial;
+  text-align: end;
+  color: #787676;
 }
 
 /*# sourceMappingURL=article.module.css.map */
