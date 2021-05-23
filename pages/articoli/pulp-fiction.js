@@ -8,7 +8,7 @@ function Article(){
 
     return (<ArticleWrapper>
          <h1>Pulp Fiction</h1>
-         <h2>Ovvero il lebbroso</h2>
+         <h2>Lorem ipsum</h2>
          <p className={style.author} 
         onClick={() => router.push('/autori/bruno_lusardi')}>Bruno Lusardi</p>
    
