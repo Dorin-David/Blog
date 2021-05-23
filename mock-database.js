@@ -2,6 +2,17 @@
 
 export const database = [
     {
+        title: 'Pulp Fiction',
+        header: '"Tarantino possiede genio e la capacità di riordinare il Caos"',
+        author: 'Bruno Lusardi',
+        author_path: 'autori/bruno_lusardi',
+        article_path: '/articoli/pulp-fiction',
+        img: '/assets/pulp_fiction.jpeg',
+        description: `Siamo negli anni ’90, e in pochi si possono vantare di poter scrivere e dirigere una simile, geniale e deliziosa cazzata.`,
+        position: 'center top'
+    }
+    ,
+    {
         title: `L'artista`,
         header: 'Ovvero il lebbroso',
         author: 'Dorin David',
@@ -57,7 +68,7 @@ export const database = [
         img: '/assets/Alan-Watts.jpg',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a velit gravida, tristique leo quis, lacinia quam. Praesent a metus quis turpis blandit tristique. Cras vitae urna vulputate, porttitor elit et, luctus mi.',
         //set logic for tags
-        tags: ['dorin david', 'filosofia', 'zen', 'alan watts', ]
+        tags: ['dorin david', 'filosofia', 'zen', 'alan watts',]
     },
     {
         title: 'Witold Gombrowicz',
@@ -79,5 +90,15 @@ export const authors = {
         img: '/assets/authors/Dorin_David.jpg',
         bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a velit gravida, tristique leo quis, lacinia quam. Praesent a metus quis turpis blandit tristique. Cras vitae urna vulputate, porttitor elit et, luctus mi.',
         author_path: '/autori/dorin_david'
+    },
+    'Bruno Lusardi': {
+        name: 'Bruno Lusardi',
+        bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a velit gravida, tristique leo quis, lacinia quam. Praesent a metus quis turpis blandit tristique. Cras vitae urna vulputate, porttitor elit et, luctus mi.',
+        author_path: '/autori/bruno_lusardi'
+    },
+    'Luigi Rizzo': {
+        name: 'Luigi Rizzo',
+        bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a velit gravida, tristique leo quis, lacinia quam. Praesent a metus quis turpis blandit tristique. Cras vitae urna vulputate, porttitor elit et, luctus mi.',
+        author_path: '/autori/luigi_rizzo'
     }
 }

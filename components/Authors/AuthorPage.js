@@ -5,7 +5,7 @@ import { database, authors } from '../../mock-database';
 
 function AuthorPage(props) {
     const author = authors[props.author]
-    const authorArticles = database.filter(article => article.author === 'Dorin David')
+    const authorArticles = database.filter(article => article.author === props.author)
     return (
       <>
          <AuthorCard 
