@@ -1,18 +1,27 @@
 /* Mock database before real database setup */
 
+
 export const database = [
     {
+        title: 'The Naked Lunch',
+        author: 'Bruno Lusardi',
+        author_path: 'autori/bruno_lusardi',
+        article_path: '/articoli/naked-lunch',
+        img: '/assets/burroughs_cronnenberg.jpeg',
+        description: `David Cronenberg, canadese interessato alla scienza ed alla
+        fantascienza, agli sbocchi della carne ed alla sua contaminazione, vide in William Burroughs un magnete –
+        ovvero un potente centro di fascinazione.`,
+        position: 'center bottom'
+    },
+    {
         title: 'Pulp Fiction',
-        // header: '"Tarantino possiede genio e la capacità di riordinare il Caos"',
         author: 'Bruno Lusardi',
         author_path: 'autori/bruno_lusardi',
         article_path: '/articoli/pulp-fiction',
         img: '/assets/pulp_fiction.jpeg',
         description: `Siamo negli anni ’90, e in pochi si possono vantare di poter scrivere e dirigere una simile, geniale e deliziosa cazzata.`,
-        position: 'center top',
-        tags: ['cinema', 'tarantino', 'pulp fiction']
-    }
-    ,
+        
+    },
     {
         title: `L'artista`,
         header: 'Ovvero il lebbroso',
@@ -39,7 +48,7 @@ export const database = [
 
     },
     {
-        title: 'La Routa',
+        title: 'La Ruota',
         header: 'Ma in fondo, vogliamo star meglio?',
         author: 'Dorin David',
         author_path: 'autori/dorin_david',

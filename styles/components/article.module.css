@@ -38,4 +38,30 @@
   color: #787676;
 }
 
+@media (max-width: 1200px) {
+  .article p {
+    width: 80%;
+  }
+}
+@media (max-width: 900px) {
+  .article p {
+    width: 90%;
+  }
+}
+@media (max-width: 800px) {
+  .article p {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 600px) {
+  .article h1 {
+    font-size: 2.5rem;
+  }
+  .article p {
+    width: 100%;
+    padding: 7px;
+    font-size: 1.1rem;
+  }
+}
+
 /*# sourceMappingURL=article.module.css.map */

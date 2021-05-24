@@ -4,15 +4,6 @@ import style from '../../styles/components/article-card.module.css'
 
 function ArticleCard(props) {
     const router = useRouter();
-
-    function onCardActive(){
-       console.log('hello')
-    }
-
-    function onCardNotActive(){
-      console.log('bye')
-    }
-
     function onNavigation(event) {
         const target = event.target
         if (target.tagName === 'A') {
@@ -22,7 +13,7 @@ function ArticleCard(props) {
         }
 
     }
-    return <div className={style.card} onClick={onNavigation} onMouseDown={onCardActive} onMouseOut={onCardNotActive}>
+    return <div className={style.card} onClick={onNavigation}>
         <div className={style['header-wrapper']}>
         <h1>{props.title}</h1>
         <p className={style.header}>{props.header}</p>
