@@ -51,15 +51,13 @@
 
 .header-wrapper {
   margin-top: 100px;
-  transition: margin-top .8s .1s ease;
+  transition: margin-top 0.8s 0.1s ease;
 }
 
 .description-wrapper {
-  margin-top: 150px;
-  transition: margin-top .5s ease;
+  margin-top: 170px;
+  transition: margin-top 0.5s ease;
 }
-
-
 
 .overlay {
   position: absolute;
@@ -73,29 +71,45 @@
   transition: all 0.3s ease;
 }
 
-.card:hover,
-.card:active {
-  cursor: pointer;
-  .header-wrapper {
-    margin: 1rem;
-  }
-  
-  .description-wrapper {
-   margin-top: 1rem;
-  }
-  .overlay {
-    background: rgba(1, 1, 1, 0.5);
-  }
-}
-
 .author:hover {
   text-decoration: underline 2px white;
 }
 
-@media (max-width: 800px){
-   .card {
-     width: 90%;
-     height: 300px;
-   }
+@media (max-width: 800px) {
+  .card {
+    width: 90%;
+    height: 300px;
+  }
 }
 
+@media (min-width: 550px) {
+  .card:hover,
+  .card:active,
+  .overlay:hover,
+  .overlay:active {
+    cursor: pointer;
+    .header-wrapper {
+      margin: 1rem;
+    }
+
+    .description-wrapper {
+      margin-top: 1rem;
+    }
+    .overlay {
+      background: rgba(1, 1, 1, 0.5);
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .card {
+    height: 250px;
+
+    h1 {
+      font-size: 2rem;
+    }
+    .header {
+      font-size: 1.1rem;
+    }
+  }
+}

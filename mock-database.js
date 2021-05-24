@@ -3,13 +3,14 @@
 export const database = [
     {
         title: 'Pulp Fiction',
-        header: '"Tarantino possiede genio e la capacità di riordinare il Caos"',
+        // header: '"Tarantino possiede genio e la capacità di riordinare il Caos"',
         author: 'Bruno Lusardi',
         author_path: 'autori/bruno_lusardi',
         article_path: '/articoli/pulp-fiction',
         img: '/assets/pulp_fiction.jpeg',
         description: `Siamo negli anni ’90, e in pochi si possono vantare di poter scrivere e dirigere una simile, geniale e deliziosa cazzata.`,
-        position: 'center top'
+        position: 'center top',
+        tags: ['cinema', 'tarantino', 'pulp fiction']
     }
     ,
     {
@@ -20,7 +21,7 @@ export const database = [
         article_path: '/articoli/artista',
         img: '/assets/prometheus-1883_bocklin.jpg',
         description: `"E’ proprio nella misura in cui sono inconsci, semplici strumenti, che il loro lavoro è fondamentale; 
-        essi sono un ponte tra l’ordinario e il Mistero, sono gli iniziati e i guardiani del cancello verso l’ignoto dentro ognuno di noi"`,
+        essi sono un ponte tra l’ordinario e il Mistero."`,
         position: 'center top'
 
     },
@@ -33,8 +34,7 @@ export const database = [
         img: '/assets/night-1890.jpg',
         description: `Il peggio era quando il loro vociare si mischiava a quello dei vivi;
         e dato che il tono e le sembianze (quando ne avevano) erano, pure, simili, 
-        non riusciva piu' a distinguere gli uni dagli altri, e quando rispondeva, o 
-        annuiva, non avrebbe piu' saputo dire a chi aveva risposto, a chi aveva annuito.`,
+        non riusciva piu' a distinguere gli uni dagli altri.`,
         position: 'center -40px'
 
     },
