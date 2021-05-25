@@ -20,7 +20,7 @@ function Home() {
 
 
   useEffect(() => {
-    setPageCount(Math.floor(database.length / perPage))
+    setPageCount(Math.round(database.length / perPage))
     let data = null;
     if(offset > 0){
        data = database.slice((offset * 5) + 1, (offset * 5) + (perPage + 1))
