@@ -1,0 +1,24 @@
+.pagination {
+    min-width: 300px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+
+    .active {
+        background: rgba(1, 1, 1, 0.8);
+    }
+  }
+  
+  .pagination li {
+    cursor: pointer;
+    margin: 0 0.2rem;
+    list-style: none;
+    background: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+
+  
