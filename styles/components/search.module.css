@@ -21,4 +21,10 @@
   font-size: 1.8rem;
 }
 
+@media (max-width: 350px) {
+  .search-bar {
+    width: 100px;
+  }
+}
+
 /*# sourceMappingURL=search.module.css.map */
