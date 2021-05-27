@@ -3,11 +3,31 @@
 
 export const database = [
     {
+        title: 'Ordet',
+        author: 'Bruno Lusardi',
+        author_path: 'autori/bruno_lusardi',
+        article_path: '/articoli/ordet',
+        img: '/assets/ordet.jpg',
+        description: `Ogni vera opera deve possedere un che di
+        indicibile, di inafferrabile, un pertugio ripetuto da cui soffia,
+        delicato e potente, un vento irresistibile`,
+    },
+    {
+        title: 'The killer inside me',
+        author: 'Bruno Lusardi',
+        author_path: 'autori/bruno_lusardi',
+        article_path: '/articoli/the-killer-inside-me',
+        img: '/assets/the-killer-inside-me.jpg',
+        description: `Il cinema, servendosi delle figure, può presentare o
+        mostrare, a noi, il volto dell’assassino. L’assassino, ci dice Thompson (ma anche Winterbottom, trasponendo) è dentro. Il cinema, dentro, non vede: c’è bisogno di altro: c’è
+        bisogno che si sia in grado di vedere senza vedere.`,
+    },
+    
+    {
         title: 'Adorno e \"Finale di Partita\"',
         author: 'Luigi Rizzo',
         author_path: 'autori/luigi_rizzo',
         article_path: '/articoli/finale-di-partita',
-        // img: '/assets/parasite.jpg',
         description: `La tendenza esistenzialista mira ad un conformismo, ad un “dover essere quel che si è” dando così «accessibilità di ogni spiegazione logica». 
         In opposizione a questo atteggiamento Beckett invece riesce a svincolare da secondi fini il procedimento poetico. `,
     },
