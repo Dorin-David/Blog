@@ -6,8 +6,7 @@ function Article(){
     const router = useRouter();
 
     return (<ArticleWrapper>
-         <h1>La Ruota</h1>
-         <h2>Riflessioni dopo una sconfitta a scacchi</h2>
+         <h1>Parasite</h1>
          <p className={style.author} 
         onClick={() => router.push('/autori/bruno_lusardi')}>Bruno Lusardi</p>
 

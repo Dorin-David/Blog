@@ -22,8 +22,8 @@ function ArticleCard(props) {
         <p className={style.author}> <Link href={props.author_path}>{props.author}</Link></p>
         <p>{props.description}</p>
         </div>
-        <img src={props.img} alt={props.title} style={props.position ? {objectPosition: props.position} : null}/>
-        <div className={style.overlay}></div>
+        {props.img && <img src={props.img} alt={props.title} style={props.position ? {objectPosition: props.position} : null}/>}
+        <div className={style.overlay} style={ !props.img ? {background: 'black'} : null}></div>
     </div>
 }
 

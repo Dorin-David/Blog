@@ -1,3 +1,3 @@
 import AuthorPage from '../../components/Authors/AuthorPage';
 
-export default () => <AuthorPage author='Luigi Rizzo'/>
+export default function author() { return <AuthorPage author='Luigi Rizzo'/>} 

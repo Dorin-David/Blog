@@ -3,6 +3,15 @@
 
 export const database = [
     {
+        title: 'Adorno e \"Finale di Partita\"',
+        author: 'Luigi Rizzo',
+        author_path: 'autori/luigi_rizzo',
+        article_path: '/articoli/finale-di-partita',
+        // img: '/assets/parasite.jpg',
+        description: `La tendenza esistenzialista mira ad un conformismo, ad un “dover essere quel che si è” dando così «accessibilità di ogni spiegazione logica». 
+        In opposizione a questo atteggiamento Beckett invece riesce a svincolare da secondi fini il procedimento poetico. `,
+    },
+    {
         title: 'Parasite',
         author: 'Bruno Lusardi',
         author_path: 'autori/bruno_lusardi',
@@ -11,7 +20,6 @@ export const database = [
         description: `Probabilmente, per comprendere le radici di certa violenza presente, ad
         esempio, nel cinema orientale, bisognerebbe conoscere un
         po’ di Oriente.`,
-        // position: 'center bottom'
     },
     {
         title: 'Monella',
@@ -24,7 +32,6 @@ export const database = [
         nessun altro si è crogiolato tanto, così ridente e appagato,
         nel filmare un bel culo di donna come se esso fosse
         l’incarnazione della Verità`,
-        // position: 'center bottom'
     },
     {
         title: 'The Naked Lunch',
@@ -113,8 +120,6 @@ export const database = [
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a velit gravida, tristique leo quis, lacinia quam. Praesent a metus quis turpis blandit tristique. Cras vitae urna vulputate, porttitor elit et, luctus mi.',
         position: 'center bottom'
     }
-
-
 ]
 
 export const authors = {
