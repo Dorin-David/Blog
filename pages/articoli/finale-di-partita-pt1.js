@@ -1,4 +1,5 @@
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/router';
+import Link from 'next/link';
 import ArticleWrapper from '../../components/Articles/Article';
 import style from '../../styles/components/article.module.css';
 

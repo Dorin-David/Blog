@@ -38,6 +38,10 @@
     .info {
         font-size: initial;
         color: $date;
+
+        a {
+            font-weight: bold;
+        }
     }
 
     .credit {
