@@ -1,8 +1,9 @@
 import Collections from '../../components/Collection/Collections';
+import Header from '../../components/SectionHeader';
 
 function CollectionsPage(){
    return <div>
-      <h1>This is the collection's page</h1>
+     <Header>Raccolte</Header>
       <Collections/>
    </div>
 }

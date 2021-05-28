@@ -7,9 +7,9 @@ function ArticleCard(props) {
     function onNavigation(event) {
         const target = event.target
         if (target.tagName === 'A') {
-            router.push(props.author_path)
+            router.replace(props.author_path)
         } else {
-            router.push(props.path)
+            router.replace(props.path)
         }
 
     }

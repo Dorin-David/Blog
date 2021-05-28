@@ -3,6 +3,18 @@
 
 export const database = [
     {
+        title: 'Adorno e \"Finale di Partita\"',
+        header: '(parte seconda)',
+        author: 'Luigi Rizzo',
+        author_path: 'autori/luigi_rizzo',
+        article_path: '/articoli/finale-di-partita-pt1',
+        description: `La tendenza esistenzialista mira ad un conformismo, ad un “dover essere quel che si è” dando così «accessibilità di ogni spiegazione logica». 
+        In opposizione a questo atteggiamento Beckett invece riesce a svincolare da secondi fini il procedimento poetico. `,
+        category: 'filosofia',
+        collection: 'Adorno legge Beckett',
+        orderCollection: 2
+    },
+    {
         title: 'Ordet',
         author: 'Bruno Lusardi',
         author_path: 'autori/bruno_lusardi',
@@ -27,13 +39,14 @@ export const database = [
 
     {
         title: 'Adorno e \"Finale di Partita\"',
+        header: '(parte prima)',
         author: 'Luigi Rizzo',
         author_path: 'autori/luigi_rizzo',
-        article_path: '/articoli/finale-di-partita',
+        article_path: '/articoli/finale-di-partita-pt1',
         description: `La tendenza esistenzialista mira ad un conformismo, ad un “dover essere quel che si è” dando così «accessibilità di ogni spiegazione logica». 
         In opposizione a questo atteggiamento Beckett invece riesce a svincolare da secondi fini il procedimento poetico. `,
         category: 'filosofia',
-        collection: 'Work in Progress',
+        collection: 'Adorno legge Beckett',
         orderCollection: 1
     },
     {
@@ -186,12 +199,4 @@ export const collections = [
         category: 'filosofia',
         description: 'Work in Progress, una raccolta su Theodor Adorno',
     },
-    {
-        collection: 'Hello World',
-        author: 'Dorin',
-        author_path: 'dorin_david',
-        // img: '/public/theodor-adorno.jpg',
-        category: 'letteratura',
-        description: 'Work in Progress, una raccolta su Theodor Adorno',
-    }
 ]
