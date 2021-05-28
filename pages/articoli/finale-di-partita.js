@@ -11,7 +11,6 @@ function Article() {
         onClick={() => router.push('/autori/luigi-rizzo')}>Luigi Rizzo</p>
           <p className={style.info}>(Questo articolo è il primo di una serie. Potete trovare gli altri articoli a [rubrica])</p>
         <p>
-        Adorno e “Finale di partita”
 <span>Tentativo di capire il “Finale di partita” </span> è un saggio che Adorno termina all’inizio del 1961 e che pubblica in <span>Note per la letteratura</span>. 
 Questo scritto porta con sé un’importanza singolare perché oltre ad essere dedicato esplicitamente a Beckett, è anche il primo saggio del filosofo di Francoforte che 
 entra nel profondo di un’opera in particolare dell’artista irlandese. Finale di partita è il titolo dello scritto in questione ed è una rappresentazione teatrale 

@@ -33,7 +33,7 @@ function Home() {
 
 
   return (
-    <div >
+    < >
       <ArticlesList articles={articles} />
       <ReactPaginate
         previousLabel={"prev"}
@@ -48,7 +48,7 @@ function Home() {
         subContainerClassName={"pages pagination"}
         activeClassName={style.active} 
         />
-    </div>
+    </>
   )
 }
 

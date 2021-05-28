@@ -1,11 +1,18 @@
-import Link from 'next/link';
+import CategoryCard from '../../components/Categories/CategoryCard';
+import Header from '../../components/SectionHeader';
+import style from '../../styles/components/category-card.module.css';
+
+//mock category list
+const categories = ['cinema', 'filosofia', 'letteratura', 'raccolte']
 
 function Categorie(){
-    return (<ul>
-        <li><Link href="/categorie/racconti">Racconti</Link></li>
-        <li><Link href="/categorie/saggi">Saggi</Link></li>
-        <li><Link href="/categorie/poesia">Poesia</Link></li>
-        </ul>)
+    return <>
+    <Header>Categorie</Header>
+    <div className={style['cards-wrapper']}>
+        {categories.map(category => <CategoryCard category={category}/>)}
+    </div>
+    </>
 }
+
 
 export default Categorie
