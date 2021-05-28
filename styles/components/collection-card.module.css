@@ -1,0 +1,123 @@
+.card {
+  width: 700px;
+  height: 350px;
+  margin: 2rem auto;
+  padding: 1rem;
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.card h1 {
+  font-size: 2.7rem;
+}
+.card h1,
+.card .header,
+.card .author,
+.card p {
+  position: relative;
+  z-index: 5;
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+.card .header {
+  font-size: 1.4rem;
+}
+.card .author {
+  align-self: center;
+  margin: 0.5rem;
+  margin-left: 30%;
+  z-index: 10;
+  transition: all 0.3s ease;
+}
+.card img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.card p {
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.header-wrapper {
+  margin-top: 100px;
+  transition: margin-top 0.8s 0.1s ease;
+}
+
+.description-wrapper {
+  margin-top: 170px;
+  transition: margin-top 0.5s ease;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(1, 1, 1, 0.6);
+  z-index: 2;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.author:hover {
+  text-decoration: underline 2px white;
+}
+
+@media (max-width: 800px) {
+  .card {
+    width: 90%;
+    height: 300px;
+    min-width: 300px;
+  }
+}
+@media (min-width: 550px) {
+  .card:hover,
+.card:active,
+.overlay:hover,
+.overlay:active {
+    cursor: pointer;
+  }
+  .card:hover .header-wrapper,
+.card:active .header-wrapper,
+.overlay:hover .header-wrapper,
+.overlay:active .header-wrapper {
+    margin: 1rem;
+  }
+  .card:hover .description-wrapper,
+.card:active .description-wrapper,
+.overlay:hover .description-wrapper,
+.overlay:active .description-wrapper {
+    margin-top: 1rem;
+  }
+  .card:hover .overlay,
+.card:active .overlay,
+.overlay:hover .overlay,
+.overlay:active .overlay {
+    background: rgba(1, 1, 1, 0.5);
+  }
+}
+@media (max-width: 500px) {
+  .card {
+    height: 250px;
+  }
+  .card h1 {
+    font-size: 2rem;
+  }
+  .card .header {
+    font-size: 1.1rem;
+  }
+}
+.card {
+  width: 300px;
+  height: 400px;
+}
+
+/*# sourceMappingURL=collection-card.module.css.map */

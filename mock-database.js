@@ -24,7 +24,7 @@ export const database = [
         bisogno che si sia in grado di vedere senza vedere.`,
         category: 'cinema'
     },
-    
+
     {
         title: 'Adorno e \"Finale di Partita\"',
         author: 'Luigi Rizzo',
@@ -80,7 +80,7 @@ export const database = [
         img: '/assets/pulp_fiction.jpeg',
         description: `Siamo negli anni ’90, e in pochi si possono vantare di poter scrivere e dirigere una simile, geniale e deliziosa cazzata.`,
         category: 'cinema'
-        
+
     },
     {
         title: `L'artista`,
@@ -174,3 +174,24 @@ export const authors = {
         author_path: '/autori/luigi_rizzo'
     }
 }
+
+
+export const collections = [
+    {
+        collection: 'Adorno legge Beckett',
+        author: 'Luigi Rizzo',
+        author_path: 'luigi_rizzo',
+        path: '/raccolte/adorno-legge-beckett',
+        // img: '/public/theodor-adorno.jpg',
+        category: 'filosofia',
+        description: 'Work in Progress, una raccolta su Theodor Adorno',
+    },
+    {
+        collection: 'Hello World',
+        author: 'Dorin',
+        author_path: 'dorin_david',
+        // img: '/public/theodor-adorno.jpg',
+        category: 'letteratura',
+        description: 'Work in Progress, una raccolta su Theodor Adorno',
+    }
+]
