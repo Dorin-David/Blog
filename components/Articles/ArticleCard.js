@@ -7,13 +7,15 @@ function ArticleCard(props) {
     function onNavigation(event) {
         const target = event.target
         if (target.tagName === 'A') {
-            router.replace(props.author_path)
+            router.replace(`/autori/${props.author_path}`)
         } else {
             router.replace(props.path)
         }
 
     }
-    return <div className={style.card} onClick={onNavigation}>
+    return <div className={style.card} 
+                onClick={onNavigation}
+                >
         <div className={style['header-wrapper']}>
         <h1>{props.title}</h1>
         <p className={style.header}>{props.header}</p>

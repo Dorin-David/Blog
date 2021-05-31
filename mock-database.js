@@ -1,15 +1,16 @@
 /* Mock database before real database setup */
 
 
-export const database = [
+const database = [
     {
         title: 'Adorno e \"Finale di Partita\"',
         header: '(parte seconda)',
         author: 'Luigi Rizzo',
-        author_path: 'autori/luigi_rizzo',
-        article_path: '/articoli/finale-di-partita-pt1',
-        description: `La tendenza esistenzialista mira ad un conformismo, ad un “dover essere quel che si è” dando così «accessibilità di ogni spiegazione logica». 
-        In opposizione a questo atteggiamento Beckett invece riesce a svincolare da secondi fini il procedimento poetico. `,
+        author_path: 'luigi_rizzo',
+        article_path: '/articoli/finale-di-partita-pt2',
+        description: `Il lavoro di demolizione beckettiano si radica in maniera incisiva ed evidente soprattutto nella sfera del linguaggio. 
+        Beckett si libera dell’illusione che gli avvenimenti siano di per sé significanti, insinuando volutamente ambiguità e polivalenze 
+        che la stessa parola “senso” provoca`,
         category: 'filosofia',
         collection: 'Adorno legge Beckett',
         orderCollection: 2
@@ -17,7 +18,7 @@ export const database = [
     {
         title: 'Ordet',
         author: 'Bruno Lusardi',
-        author_path: 'autori/bruno_lusardi',
+        author_path: 'bruno_lusardi',
         article_path: '/articoli/ordet',
         img: '/assets/ordet.jpg',
         description: `Ogni vera opera deve possedere un che di
@@ -28,7 +29,7 @@ export const database = [
     {
         title: 'The killer inside me',
         author: 'Bruno Lusardi',
-        author_path: 'autori/bruno_lusardi',
+        author_path: 'bruno_lusardi',
         article_path: '/articoli/the-killer-inside-me',
         img: '/assets/the-killer-inside-me.jpg',
         description: `Il cinema, servendosi delle figure, può presentare o
@@ -41,7 +42,7 @@ export const database = [
         title: 'Adorno e \"Finale di Partita\"',
         header: '(parte prima)',
         author: 'Luigi Rizzo',
-        author_path: 'autori/luigi_rizzo',
+        author_path: 'luigi_rizzo',
         article_path: '/articoli/finale-di-partita-pt1',
         description: `La tendenza esistenzialista mira ad un conformismo, ad un “dover essere quel che si è” dando così «accessibilità di ogni spiegazione logica». 
         In opposizione a questo atteggiamento Beckett invece riesce a svincolare da secondi fini il procedimento poetico. `,
@@ -52,7 +53,7 @@ export const database = [
     {
         title: 'Parasite',
         author: 'Bruno Lusardi',
-        author_path: 'autori/bruno_lusardi',
+        author_path: 'bruno_lusardi',
         article_path: '/articoli/parasite',
         img: '/assets/parasite.jpg',
         description: `Probabilmente, per comprendere le radici di certa violenza presente, ad
@@ -63,7 +64,7 @@ export const database = [
     {
         title: 'Monella',
         author: 'Bruno Lusardi',
-        author_path: 'autori/bruno_lusardi',
+        author_path: 'bruno_lusardi',
         article_path: '/articoli/monella',
         img: '/assets/tinto-brass-monella.jpg',
         description: `Brass possiede un merito: la sua camera è al servizio del
@@ -76,7 +77,7 @@ export const database = [
     {
         title: 'The Naked Lunch',
         author: 'Bruno Lusardi',
-        author_path: 'autori/bruno_lusardi',
+        author_path: 'bruno_lusardi',
         article_path: '/articoli/naked-lunch',
         img: '/assets/burroughs_cronnenberg.jpeg',
         description: `David Cronenberg, canadese interessato alla scienza ed alla
@@ -88,7 +89,7 @@ export const database = [
     {
         title: 'Pulp Fiction',
         author: 'Bruno Lusardi',
-        author_path: 'autori/bruno_lusardi',
+        author_path: 'bruno_lusardi',
         article_path: '/articoli/pulp-fiction',
         img: '/assets/pulp_fiction.jpeg',
         description: `Siamo negli anni ’90, e in pochi si possono vantare di poter scrivere e dirigere una simile, geniale e deliziosa cazzata.`,
@@ -99,7 +100,7 @@ export const database = [
         title: `L'artista`,
         header: 'Ovvero il lebbroso',
         author: 'Dorin David',
-        author_path: 'autori/dorin_david',
+        author_path: 'dorin_david',
         article_path: '/articoli/artista',
         img: '/assets/prometheus-1883_bocklin.jpg',
         description: `"E’ proprio nella misura in cui sono inconsci, semplici strumenti, che il loro lavoro è fondamentale; 
@@ -112,7 +113,7 @@ export const database = [
         title: 'Le voci',
         header: 'Racconto',
         author: 'Dorin David',
-        author_path: 'autori/dorin_david',
+        author_path: 'dorin_david',
         article_path: '/racconti/le-voci-dorin-david',
         img: '/assets/night-1890.jpg',
         description: `Il peggio era quando il loro vociare si mischiava a quello dei vivi;
@@ -126,7 +127,7 @@ export const database = [
         title: 'La Ruota',
         header: 'Ma in fondo, vogliamo star meglio?',
         author: 'Dorin David',
-        author_path: 'autori/dorin_david',
+        author_path: 'dorin_david',
         article_path: '/articoli/la-ruota',
         img: '/assets/ferris-wheel-in-the-tuileries-1905.jpg',
         description: `Le leggi dell’universo non cambieranno mai, per i pezzenti e per gli dèi: prima in alto, poi in basso, la Ruota gira e noi siamo da capo. 
@@ -137,7 +138,7 @@ export const database = [
         title: 'Segni',
         header: 'Pensieri in una notte di primavera',
         author: 'Dorin David',
-        author_path: 'autori/dorin_david',
+        author_path: 'dorin_david',
         article_path: '/articoli/segni',
         img: '/assets/memory-1948_magritte.jpg',
         description: `E mi sembra tutto bello, tutto necessario, nella mia stupenda casa in una notte primaverile, chissà che cosa stanno faccendo tutti, 
@@ -149,7 +150,7 @@ export const database = [
         title: 'Alan Watts',
         header: '\"Vuoto e meraviglioso\"',
         author: 'Dorin David',
-        author_path: '/autori/dorin_david',
+        author_path: 'dorin_david',
         article_path: '/articoli/zen-alan-watts',
         img: '/assets/Alan-Watts.jpg',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a velit gravida, tristique leo quis, lacinia quam. Praesent a metus quis turpis blandit tristique. Cras vitae urna vulputate, porttitor elit et, luctus mi.',
@@ -160,7 +161,7 @@ export const database = [
         title: 'Witold Gombrowicz',
         header: 'Enfant terrible',
         author: 'Dorin David',
-        author_path: 'autori/dorin_david',
+        author_path: 'dorin_david',
         article_path: '/articoli/gombrowicz',
         img: '/assets/gombrowicz.jpg',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a velit gravida, tristique leo quis, lacinia quam. Praesent a metus quis turpis blandit tristique. Cras vitae urna vulputate, porttitor elit et, luctus mi.',
@@ -169,34 +170,52 @@ export const database = [
     }
 ]
 
-export const authors = {
+const collections = [
+    {
+        collection: 'Adorno legge Beckett',
+        author: 'Luigi Rizzo',
+        author_path: '/autori/luigi_rizzo',
+        path: '/raccolte/adorno-legge-beckett',
+        category: 'filosofia',
+        description: `Quello di Adorno è un tentativo. Il tentativo finalizzato a comprendere l’opera di chi sosteneva di
+        preferire quegli artisti “destinati” a non aver nulla da esprimere e di non essere assolutamente
+        tenuti a farlo. L’opera qui posta in esame è quella di Samuel Beckett.`,
+    },
+    // {
+    //     collection: 'Lo Yoga',
+    //     author: 'Dorin David',
+    //     author_path: '/autori/dorin_david',
+    //     path: '/raccolte/adorno-legge-beckett',
+    //     img: 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1173551320l/302434.jpg',
+    //     category: 'filosofia',
+    //     description: `Il saggio di Mircea Eliade che ha portato in Europa la concezione dello Yoga come valida mistica`,
+    // }
+]
+
+function authorHasCollection(author) {
+    return collections.some(collection => collection.author === author)
+}
+
+const authors = {
     'Dorin David': {
         name: 'Dorin David',
         img: '/assets/authors/Dorin_David.jpg',
         bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a velit gravida, tristique leo quis, lacinia quam. Praesent a metus quis turpis blandit tristique. Cras vitae urna vulputate, porttitor elit et, luctus mi.',
-        author_path: '/autori/dorin_david'
+        author_path: '/autori/dorin_david',
+        hasCollection: authorHasCollection('Dorin David')
     },
     'Bruno Lusardi': {
         name: 'Bruno Lusardi',
         bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a velit gravida, tristique leo quis, lacinia quam. Praesent a metus quis turpis blandit tristique. Cras vitae urna vulputate, porttitor elit et, luctus mi.',
-        author_path: '/autori/bruno_lusardi'
+        author_path: '/autori/bruno_lusardi',
+        hasCollection: authorHasCollection('Bruno Lusardi')
     },
     'Luigi Rizzo': {
         name: 'Luigi Rizzo',
         bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a velit gravida, tristique leo quis, lacinia quam. Praesent a metus quis turpis blandit tristique. Cras vitae urna vulputate, porttitor elit et, luctus mi.',
-        author_path: '/autori/luigi_rizzo'
+        author_path: '/autori/luigi_rizzo',
+        hasCollection: authorHasCollection('Luigi Rizzo')
     }
 }
 
-
-export const collections = [
-    {
-        collection: 'Adorno legge Beckett',
-        author: 'Luigi Rizzo',
-        author_path: 'luigi_rizzo',
-        path: '/raccolte/adorno-legge-beckett',
-        // img: '/public/theodor-adorno.jpg',
-        category: 'filosofia',
-        description: 'Work in Progress, una raccolta su Theodor Adorno',
-    },
-]
+export { database, collections, authors }

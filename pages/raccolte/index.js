@@ -1,10 +1,10 @@
 import Collections from '../../components/Collection/Collections';
 import Header from '../../components/SectionHeader';
 
-function CollectionsPage(){
+function CollectionsPage() {
    return <div>
-     <Header>Raccolte</Header>
-      <Collections/>
+      <Header>Raccolte</Header>
+      <Collections />
    </div>
 }
 
