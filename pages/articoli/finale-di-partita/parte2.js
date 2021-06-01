@@ -1,13 +1,14 @@
 import { useRouter } from 'next/router';
 import Link from 'next/link';
-import ArticleWrapper from '../../components/Articles/Article';
-import style from '../../styles/components/article.module.css';
+import ArticleWrapper from '../../../components/Articles/Article';
+import style from '../../../styles/components/article.module.css';
 
 function Article() {
     const router = useRouter()
 
     return <ArticleWrapper>
-        <h1>Adorno e “Finale di partita” (parte seconda)</h1>
+        <h1>Adorno e “Finale di partita”</h1>
+        <h2>(parte seconda)</h2>
         <p className={style.author} 
         onClick={() => router.push('/autori/luigi-rizzo')}>Luigi Rizzo</p>
           <p className={style.info}>(Questo articolo è parte di una serie. Potete trovare gli altri articoli <Link href="/raccolte/adorno-legge-beckett">qui</Link>)</p>
@@ -29,8 +30,3 @@ A proposito di ciò aggiunge amaramente Adorno che «lo spirito stesso si dichia
 }
 
 export default Article
-
-/*
-
-
-*/

@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import Link from 'next/link';
-import ArticleWrapper from '../../components/Articles/Article';
-import style from '../../styles/components/article.module.css';
+import ArticleWrapper from '../../../components/Articles/Article';
+import style from '../../../styles/components/article.module.css';
 
 function Article() {
     const router = useRouter()
@@ -28,4 +28,3 @@ la troviamo portata volutamente all’estremo della sua depravazione. A dirla co
 }
 
 export default Article
-

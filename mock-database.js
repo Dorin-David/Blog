@@ -1,7 +1,49 @@
 /* Mock database before real database setup */
 
 
-const database = [{
+const database = [
+    {
+        title: 'Le voci',
+        header: 'Racconto',
+        author: 'Dorin David',
+        author_path: 'dorin_david',
+        article_path: '/racconti/le-voci-dorin-david',
+        img: '/assets/night-1890.jpg',
+        description: `Il peggio era quando il loro vociare si mischiava a quello dei vivi;
+        e dato che il tono e le sembianze (quando ne avevano) erano, pure, simili, 
+        non riusciva piu' a distinguere gli uni dagli altri.`,
+        category: 'letteratura',
+        position: 'center -40px'
+
+    },
+    {
+        title: 'Adorno e \"Finale di Partita\"',
+        header: '(parte quarta)',
+        author: 'Luigi Rizzo',
+        author_path: 'luigi_rizzo',
+        article_path: '/articoli/finale-di-partita/parte4',
+        description: `Si percepisce in maniera piuttosto evidente che nella lettura degli
+        scritti beckettiani sia stato omesso un qualcosa, si intravede l’alone di una mancanza. Ma il fatto
+        che in questo caso venga sottratto un qualcosa, secondo Adorno, presuppone che quel qualcosa
+        sopravvive proprio perché è stato evitato, eliminato.`,
+        category: 'filosofia',
+        collection: 'Adorno legge Beckett',
+        orderCollection: 4
+    },
+    {
+        title: 'Adorno e \"Finale di Partita\"',
+        header: '(parte terza)',
+        author: 'Luigi Rizzo',
+        author_path: 'luigi_rizzo',
+        article_path: '/articoli/finale-di-partita/parte3',
+        description: `Il contesto in cui si svolge il dramma lascia presagire che sia post-apocalittico. 
+        I dialoghi spesso inconsistenti dei due personaggi, Clov e Hamm, lasciano intendere
+        silentemente di essere sopravvissuti ad una catastrofe`,
+        category: 'filosofia',
+        collection: 'Adorno legge Beckett',
+        orderCollection: 3
+    },
+    {
     title: `Ultimo tango a Parigi`,
     author: 'Bruno Lusardi',
     author_path: 'bruno_lusardi',
@@ -29,7 +71,7 @@ const database = [{
         header: '(parte seconda)',
         author: 'Luigi Rizzo',
         author_path: 'luigi_rizzo',
-        article_path: '/articoli/finale-di-partita-pt2',
+        article_path: '/articoli/finale-di-partita/parte2',
         description: `Il lavoro di demolizione beckettiano si radica in maniera incisiva ed evidente soprattutto nella sfera del linguaggio. 
         Beckett si libera dell’illusione che gli avvenimenti siano di per sé significanti, insinuando volutamente ambiguità e polivalenze 
         che la stessa parola “senso” provoca`,
@@ -65,7 +107,7 @@ const database = [{
         header: '(parte prima)',
         author: 'Luigi Rizzo',
         author_path: 'luigi_rizzo',
-        article_path: '/articoli/finale-di-partita-pt1',
+        article_path: '/articoli/finale-di-partita',
         description: `La tendenza esistenzialista mira ad un conformismo, ad un “dover essere quel che si è” dando così «accessibilità di ogni spiegazione logica». 
         In opposizione a questo atteggiamento Beckett invece riesce a svincolare da secondi fini il procedimento poetico. `,
         category: 'filosofia',
@@ -131,20 +173,7 @@ const database = [{
         position: 'center top'
 
     },
-    {
-        title: 'Le voci',
-        header: 'Racconto',
-        author: 'Dorin David',
-        author_path: 'dorin_david',
-        article_path: '/racconti/le-voci-dorin-david',
-        img: '/assets/night-1890.jpg',
-        description: `Il peggio era quando il loro vociare si mischiava a quello dei vivi;
-        e dato che il tono e le sembianze (quando ne avevano) erano, pure, simili, 
-        non riusciva piu' a distinguere gli uni dagli altri.`,
-        category: 'letteratura',
-        position: 'center -40px'
 
-    },
     {
         title: 'La Ruota',
         header: 'Ma in fondo, vogliamo star meglio?',
