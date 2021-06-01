@@ -11,8 +11,7 @@ function Article() {
             onClick={() => router.push('/autori/bruno_lusardi')}>Bruno Lusardi</p>
         <p>
 <span>Ordet</span> di Dreyer è uno dei capolavori indiscutibili della storia
-del cinema: ciò, dovrebbe essere come un giorno sulla Terra:
-<span>bastevole</span>. <br />
+del cinema: ciò, dovrebbe essere come un giorno sulla Terra:<span> bastevole</span>. <br />
 Questo era uno scherzo, non ci si deve mica arrabbiare.
 Tuttavia, <span>davvero</span> non pare esserci molto da dire su questo
 film <span>ultraterreno</span>. Questo film di Dreyer, come certi film di
@@ -22,12 +21,10 @@ registrare, su pellicola, quelle che si possono definire le
 <span>ventate divine</span>. C’è chi se ne accorge, di <span>loro</span>, ma che non
 riesce a coglierle, a prenderle per il collo. C’è chi le rifiuta,
 per mancanza di interesse o materia grigia. <br />
-Colui o colei che dovesse dichiarare apertamente una
-<span>mancanza</span> di interesse nei confronti del <span>sacro</span>, meriterebbe
+Colui o colei che dovesse dichiarare apertamente una <span> mancanza</span> di interesse nei confronti del <span>sacro</span>, meriterebbe
 tutta la nostra diffidenza. Accontentarsi del cinema come
 mero documento o intrattenimento, è sintomo della
-mancanza del <span>demone, “intermediario fra gli uomini e gli dèi”</span>
-(Socrate): <span>prima</span> mancanza – <span>fatale</span> mancanza. <br />
+mancanza del <span>demone, “intermediario fra gli uomini e gli dèi”</span> (Socrate): <span>prima</span> mancanza – <span>fatale</span> mancanza. <br />
 Non si tratta, qui, di dire che bisogna a tutti i costi fare <span>arte
 religiosa</span>, o arte che contenga precisi riferimenti ai testi
 oppure alle iconografie, perché sarebbe tutto fuorché giusto
@@ -57,8 +54,7 @@ le parole sprecate contengono una <span>vibrazione</span> o un <span>vento</span
 solo a un sordo o a un cieco sono preclusi. La capacità di
 Dreyer, esemplare in <span>Ordet</span>, è quella di <span>alzare il livello</span> anche
 a una poltrona, fotografandola come un’<span>idea platonica</span>; di
-donare agli spazi e alla <span>scena</span> la capacità di <span>parlare</span> o
-<span>mormorare</span>; di far risuonare le parole dei personaggi come
+donare agli spazi e alla <span>scena</span> la capacità di <span>parlare</span> o <span> mormorare</span>; di far risuonare le parole dei personaggi come
 <span>soffi</span>, come se fossero le <span>prime</span> o le <span>ultime</span> (privilegio, forse,
 solo di un dio), come se denunciassero la loro completa
 importanza o non importanza. Ciò, dovrebbe essere inteso

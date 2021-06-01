@@ -53,7 +53,7 @@ Burroughs, <span>il sogno di Cronenberg su Burroughs</span>. <br />
 Per tracciare altri legami, si può dire ora che Burroughs
 amava, oppure ammirava, James Graham Ballard, scrittore
 inglese di fantascienza “<span>dello spazio interno</span>” (Ballard stesso),
-il cui Crash sarà, nel 1996, un altro film di David Cronenberg,
+il cui <span>Crash</span> sarà, nel 1996, un altro film di David Cronenberg,
 film straordinario e “prolungamento” (Ballard stesso) del
 libro altrettanto straordinario. <br />
 In ogni caso, come <span>Caro Diario</span> testimonia, tutto questo ed

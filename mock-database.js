@@ -1,7 +1,29 @@
 /* Mock database before real database setup */
 
 
-const database = [
+const database = [{
+    title: `Ultimo tango a Parigi`,
+    author: 'Bruno Lusardi',
+    author_path: 'bruno_lusardi',
+    article_path: '/articoli/ultimo-tango-a-parigi',
+    img: '/assets/ultimo-tango.jpg',
+    description: `Lui, lei, si incontrano come per magia. Lei è giovane e
+    perduta, lui è vecchio e perduto: inizia una relazione dalle
+    tinte gerontofile all’insegna dell’erotismo.`,
+    category: 'cinema'
+},
+    {
+        title: `L'enfer`,
+        author: 'Bruno Lusardi',
+        author_path: 'bruno_lusardi',
+        article_path: '/articoli/enfer',
+        img: '/assets/enfer.jpg',
+        description: `L’Enfer  può dirsi opera mancata prima, ed opera malriuscita
+        dopo: forse, quindi, un’opera mai realizzata. Qualcuno
+        potrebbe dire che questa affermazione non ha alcun senso,
+        ma noi, gente saggia e di pace, ce ne faremmo una ragione. `,
+        category: 'cinema'
+    },
     {
         title: 'Adorno e \"Finale di Partita\"',
         header: '(parte seconda)',

@@ -9,7 +9,7 @@ function ArticleCard(props) {
         if (target.tagName === 'A') {
             router.replace(`/autori/${props.author_path}`)
         } else {
-            router.replace(props.path)
+            router.push(props.path)
         }
 
     }

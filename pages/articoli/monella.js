@@ -12,8 +12,7 @@ function Article(){
    <p>
    Tinto Brass era un uomo ossessionato. Precisamente, era
 ossessionato dai culi femminili. “Il culo è lo specchio
-dell’anima” era la sua battuta preferita; oppure era “<span>coito</span>
-ergo sum”? Veramente difficile scegliere. <br />
+dell’anima” era la sua battuta preferita; oppure era “<span>coito</span> ergo sum”? Veramente difficile scegliere. <br />
 <span>Monella</span>, oltre che un bell’esemplare di femmina umana,
 possiede una colonna sonora straordinaria: qui, bisogna fare
 i complimenti; chi si è occupato del testo merita un bacio. <br />
@@ -36,8 +35,7 @@ l’incarnazione della <span>Verità</span>. La monella è giovane e perfetta;
 qui, <span>è la vita secondo Brass in movimento</span>.
 Cinematograficamente, ciò funziona – <span>ma</span> un po’ fa
 sorridere. Il culo che Brass vede e palpa è privo di malattie, è
-privo di brutture; per Brass il corpo della monella <span>non</span>
-invecchia (invecchia invece in Ulrich Seidl), per Brass il
+privo di brutture; per Brass il corpo della monella <span>non</span> invecchia (invecchia invece in Ulrich Seidl), per Brass il
 corpo della monella non prova né genera <span>disagio, angoscia o
 sentimento della morte</span>. <br />
 Qualcuno può dire che Brass esorcizzava, con un cinema
@@ -60,8 +58,7 @@ sessuale può nascondersi dietro l’<span>invisibilità</span> della pagina
 scritta che, tramite lo stile, la tonalità e ciò che <span>non</span> è
 filmabile, può pure suggerire, attraverso la gioia, il
 sentimento della tristezza; ma chi <span>mostra realismo</span>, ovvero
-chi fa del cinema, ha il vantaggio dell’<span>immediatezza</span> e del
-<span>lavaggio del cervello</span> (si vedano la televisione e la pubblicità);
+chi fa del cinema, ha il vantaggio dell’<span>immediatezza</span> e del <span>lavaggio del cervello</span> (si vedano la televisione e la pubblicità);
 pure possiede <span>meno</span> ambiguità, possiede insomma, dalla
 propria, <span>la facilità della passività</span>. <br />
 Il cinema è sempre guardabile, fosse anche Lav Diaz: questo
