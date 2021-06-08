@@ -3,6 +3,20 @@
 
 const database = [
     {
+        title: `Mircea Eliade - "Lo Yoga"`,
+        author: 'Dorin David',
+        header: `Introduzione (parte prima)`,
+        author_path: 'dorin_david',
+        article_path: '/articoli/lo-yoga',
+        img: '/assets/mircea_eliade.jpg',
+        description: `La vecchia e stanca Europa poteva iniziare a “comprendere l’orizzonte spirituale dei ‘primitivi’, 
+        la struttura dei loro simboli, la funzione dei loro miti, la maturità delle loro mistiche”. `,
+        category: 'filosofia',
+        collection: 'Lo Yoga - Mircea Eliade',
+        orderCollection: 1,
+      
+    },
+    {
         title: `Chant d'Hiver`,
         author: 'Bruno Lusardi',
         author_path: 'bruno_lusardi',
@@ -266,15 +280,15 @@ const collections = [
         preferire quegli artisti “destinati” a non aver nulla da esprimere e di non essere assolutamente
         tenuti a farlo. L’opera qui posta in esame è quella di Samuel Beckett.`,
     },
-    // {
-    //     collection: 'Lo Yoga',
-    //     author: 'Dorin David',
-    //     author_path: '/autori/dorin_david',
-    //     path: '/raccolte/adorno-legge-beckett',
-    //     img: 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1173551320l/302434.jpg',
-    //     category: 'filosofia',
-    //     description: `Il saggio di Mircea Eliade che ha portato in Europa la concezione dello Yoga come valida mistica`,
-    // }
+    {
+        collection: 'Lo Yoga - Mircea Eliade',
+        author: 'Dorin David',
+        author_path: '/autori/dorin_david',
+        path: '/raccolte/lo-yoga-mircea-eliade',
+        img: '/assets/yoga_tantra.jpg',
+        category: 'filosofia',
+        description: `Il saggio di Mircea Eliade che ha portato in Europa la concezione dello Yoga come valida mistica e filosofia.`,
+    }
 ]
 
 function authorHasCollection(author) {

@@ -11,8 +11,8 @@ function Article() {
         <p className={style.author}
             onClick={() => router.push('/autori/bruno_lusardi')}>Bruno Lusardi</p>
         <p>
-        Otar Iosseliani, nel 2015, firma <span>Chant d’Hiver</span>, ovvero un
-<span>canto della fine</span>. La fine e il principio, comunque, sono la
+        Otar Iosseliani, nel 2015, firma <span>Chant d’Hiver</span>, ovvero un <span>canto della fine</span>. 
+        La fine e il principio, comunque, sono la
 medesima cosa: Iosseliani lo sa sicuramente, non c’è qui
 bisogno di indagare. Basta infatti guardare il film; e pensare
 alla ciclicità delle stagioni; e a come esse, sebbene i loro poli

@@ -15,9 +15,13 @@
     p {
         min-width: 250px;
         width: 70%;
-        margin: 1rem auto;
+        margin: 0.5rem auto;
         font-size: 1.3rem;
         line-height: 1.5;
+    }
+
+    .section-title {
+        font-weight: 600;
     }
     .author {
         width: 150px;
