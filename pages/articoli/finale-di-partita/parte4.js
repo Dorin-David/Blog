@@ -30,13 +30,13 @@ Comédie. Con l’approvazione di Adorno Fisher afferma: <br />
 «Ringraziando dio, ciò che fa Beckett non ha più nulla a che vedere con il rispecchiamento della
 realtà. Beckett è la realtà. Commedia è la realtà: non il suo rispecchiamento o la sua imitazione o
 la sua riproduzione. È la situazione specifica, non la conditio humana in generale…» <br />
-La stessa cosa vale per Finale di partita. Anche quest’opera, dunque, preserva una particolare
+La stessa cosa vale per <span>Finale di partita</span>. Anche quest’opera, dunque, preserva una particolare
 importanza storica che si traduce nella «conditio humana del nostro tempo». L’autore irlandese
 spiega infatti come questo mondo obbedisca in maniera fedele «alla legge della regressione». Ma
 ancor peggio, aggiunge che questo mondo non dispone nemmeno più di «un concetto
 contrastante da poterle opporre». Se possiamo definire “di protesta” la rappresentazione teatrale
 esaminata finora, bisogna sicuramente aggiungere l’aggettivo “silenziosa”, perché solamente «in
-silenzio si può nominare il nome della sciagura». Finale di partita è un lamento silente che esprime
+silenzio si può nominare il nome della sciagura». <span>Finale di partita</span> è un lamento silente che esprime
 l’impossibilità del lamento stesso. Le parole adorniane qui di seguito richiamano ad un’immagine
 molto efficace che aiuta a comprendere meglio i concetti fino ad ora espressi: <br />
 «Ma nello spirito deve ancora riflettersi il lamento che ormai non è più possibile nessun lamento.

@@ -18,11 +18,13 @@
         margin: auto 10px;
         font-size: 1.2rem;
     }
+  
+    .main-header a {
+        font-size: 2rem;
+    }
 }
 
 .main-header {
-    cursor: pointer;
-   font-size: 2rem;
    color: white;
    margin-right: auto;
    margin-left: 70px;

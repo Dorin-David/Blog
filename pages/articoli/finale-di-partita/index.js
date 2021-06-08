@@ -14,7 +14,7 @@ function Article() {
         <p>
 <span>Tentativo di capire il “Finale di partita” </span> è un saggio che Adorno termina all’inizio del 1961 e che pubblica in <span>Note per la letteratura</span>. 
 Questo scritto porta con sé un’importanza singolare perché oltre ad essere dedicato esplicitamente a Beckett, è anche il primo saggio del filosofo di Francoforte che 
-entra nel profondo di un’opera in particolare dell’artista irlandese. Finale di partita è il titolo dello scritto in questione ed è una rappresentazione teatrale 
+entra nel profondo di un’opera in particolare dell’artista irlandese. <span>Finale di partita</span> è il titolo dello scritto in questione ed è una rappresentazione teatrale 
 portata a termine da Beckett nel 1956. <br />
 Ciò che in prima analisi possiamo portare ad emergere dallo scritto adorniano è l’individuazione di un filo conduttore che parte da Franz Kafka, passa per James Joyce ed arriva a Samuel Beckett. 
 In tutti questi tre grandi scrittori è presente la tendenza di tutta la letteratura più recente. La categoria dell’assurdità ed anche tutto il lavoro-studio sul linguaggio caratterizza particolarmente le produzioni artistiche in questione. 

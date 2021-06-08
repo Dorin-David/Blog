@@ -22,7 +22,7 @@ tale conflitto però aggiunge essenzialmente il filosofo che «non possono sopra
 sopravvissuti» e che sulle macerie l’umanità continua a vegetare, senza avere nessuna possibilità
 di meditare coscientemente su ciò che è accaduto. Proprio per questo motivo, la catastrofe non è
 mai citata esplicitamente e le sue dinamiche appaiono implicite durante lo svolgimento dell’opera. <br />
-Tutto è morto in Finale di partita, la natura stessa è indistinguibile dall’operato umano, perché il
+Tutto è morto in <span>Finale di partita</span>, la natura stessa è indistinguibile dall’operato umano, perché il
 processo di reificazione l’ha cancellata. Ciò che finora è stato detto circa l’ambientazione di
 quest’opera, aiuta a delineare quella che Adorno stesso definisce «la fase della catastrofe
 permanente», condotta dall’umanità stessa. In questo modo capiamo meglio come Beckett

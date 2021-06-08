@@ -3,11 +3,45 @@
 
 const database = [
     {
+        title: `Chant d'Hiver`,
+        author: 'Bruno Lusardi',
+        author_path: 'bruno_lusardi',
+        article_path: '/articoli/chant-d-hiver',
+        img: '/assets/chant-dhiver.jpg',
+        description: `In realtà Iosseliani sa che il vero inverno è l’unica stagione, che macina, trita e sigilla; ciò comunque non depenna un
+        sorriso, né una scopata, ci mancherebbe.`,
+        category: 'cinema'
+    },
+    {
+        title: `Sunset Boulevard`,
+        author: 'Bruno Lusardi',
+        author_path: 'bruno_lusardi',
+        article_path: '/articoli/sunset-boulevard',
+        img: '/assets/sunset-boulevard.jpg',
+        description: `Billy Wilder è il primo che, avendo fra le mani l’arma da
+        fuoco e di fronte il nemico, sceglie di sparargli di striscio. Il film, fotogramma per fotogramma, pare costruito per 
+        essere uno dei migliori film (se non il migliore) della storia del cinema.`,
+        category: 'cinema'
+    },
+    {
+        title: 'Adorno e \"Finale di Partita\"',
+        header: '(parte quinta)',
+        author: 'Luigi Rizzo',
+        author_path: 'luigi_rizzo',
+        article_path: '/articoli/finale-di-partita/parte5',
+        description: `Beckett fa implodere l’individuo sostanziale della tradizione; insinua la
+        non-identità nell’identità e procura ad ogni soggetto una disperata incapacità di riconoscersi
+        identico a sé medesimo.`,
+        category: 'filosofia',
+        collection: 'Adorno legge Beckett',
+        orderCollection: 5
+    },
+    {
         title: 'Le voci',
         header: 'Racconto',
         author: 'Dorin David',
         author_path: 'dorin_david',
-        article_path: '/racconti/le-voci-dorin-david',
+        article_path: '/racconti/le-voci',
         img: '/assets/night-1890.jpg',
         description: `Il peggio era quando il loro vociare si mischiava a quello dei vivi;
         e dato che il tono e le sembianze (quando ne avevano) erano, pure, simili, 
