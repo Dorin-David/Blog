@@ -17,8 +17,7 @@ function Article() {
             Lanthimos ne risulta come la stella più luminosa, ovvero
             talmente ha brillato sino a rischiarare, dalla sua Grecia, le
             collinette hollywoodiane. Con <span>Kinetta</span>, però, non era
-            riuscito; forse era un esperimento in collaudo. Con
-            <span>Kynodontas</span>, invece, prima di assumere Farrell, Kidman e
+            riuscito; forse era un esperimento in collaudo. Con <span>Kynodontas</span>, invece, prima di assumere Farrell, Kidman e
             Stone, riesce ad “azzannare” qualche statuetta americana. <br />
             Non ci sarebbe molto da ridere: <span>Kynodontas</span> è un film
             doloroso – ed anche geniale. Egli pare realizzare un film di

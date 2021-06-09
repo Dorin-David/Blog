@@ -1,6 +1,7 @@
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import ArticleWrapper from '../../../components/Articles/Article';
+import ArticlesArrow from '../../../components/UI/ArticlesArrows';
 import style from '../../../styles/components/article.module.css';
 
 function Article() {
@@ -26,6 +27,7 @@ riduzione a “materia di secondo grado” e come tale viene utilizzato. Secondo
 La riduzione del pensiero a scarto materiale richiama in maniera esplicita la condizione in cui sopravvive lo spirito umano nell’odierno contesto sociale. 
 A proposito di ciò aggiunge amaramente Adorno che «lo spirito stesso si dichiara come fondo di magazzino».
       </p>
+      <ArticlesArrow arrowSxLink='/articoli/finale-di-partita' arrowDxLink='/articoli/finale-di-partita/parte3' />
     </ArticleWrapper>
 }
 

@@ -1,0 +1,39 @@
+.button {
+    width: 80px;
+    height: 100px;
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    border: none;
+    background: none;
+}
+
+.button:hover {
+    background: rgb(209, 203, 203);
+}
+
+
+ .dx {
+    right: 0;
+    top: 50%;
+    // margin-top: -50px;
+}
+
+ .sx {
+    left: 0;
+    top: 50%;
+    // margin-top: -50px;
+}
+
+@media (max-width: 950px){
+    .button {
+        position: initial;
+        display: inline-block;
+        margin: 1rem;
+    }
+    .sx {
+        margin-left: calc(50% - 80px)
+    }
+}

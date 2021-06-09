@@ -16,7 +16,6 @@ const database = [
         category: 'filosofia',
         collection: 'Lo Yoga - Mircea Eliade',
         orderCollection: 2,
-      
     },
     {
         title: `Kynodontas`,

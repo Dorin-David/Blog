@@ -1,6 +1,7 @@
 import { useRouter } from 'next/router';
 import Link from 'next/link';
-import ArticleWrapper from '../../../components/Articles/Article';;
+import ArticleWrapper from '../../../components/Articles/Article';
+import ArticlesArrow from '../../../components/UI/ArticlesArrows';
 import style from '../../../styles/components/article.module.css';
 
 function Article() {
@@ -21,13 +22,13 @@ function Article() {
    è stata, ed è tutt’ora, “esistenzialista”. Perciò egli invita gli occidentali a studiare un’esperienza millenaria per cercare, se non proprio 
    risposte, spunti per le nostre domande più pressanti; a comprendere ciò che l’India ha da dire sui molteplici “condizionamenti” dell’essere 
    umano; come ha affrontato il problema della sua temporalità e storicità, e soprattutto la soluzione che ha proposto per l’angoscia e la 
-   disperazione che scaturiscono dalla presa di coscienza della propria condizione; in altre parole, della propria finitezza. Per cercare 
+   disperazione che scaturiscono dalla presa di coscienza della propria condizione; in altre parole, della propria <span>finitezza</span>. Per cercare 
    di vedere oltre l’esistenza condizionata, millenni prima della psicologia del profondo, i saggi indiani hanno esplorato le zone più profonde 
    e oscure dell’inconscio; e hanno scoperto che i condizionamenti esterni non sono poi difficili da superare; è dai <span>samskara</span> e dai <span>vasa</span> (“impregnazioni”, “residui”, “stati latenti”), 
    da ciò che la psicologia del profondo chiamerebbe i contenuti e le strutture dell’inconscio, che sorgono i grandi ostacoli alla vita ascetica. <br />
   Ma non si tratta, qui, solo di conoscere. Eliade lo sottolinea questo punto innumerevoli volte. La filosofia indiana, come ogni altra 
   via di liberazione (taoismo, buddismo ecc) non si accontenta della gnosi; la conoscenza è solo un mezzo (la Dottrina, dice il Buddha, 
-  è solo una barca da utilizzare per arrivare dall’altra parte); si lavora sui contenuti dell’inconscio per “bruciarli”. L’analogia con la 
+  è solo una barca da utilizzare per arrivare dall’<span>altra parte</span>); si lavora sui contenuti dell’inconscio per “bruciarli”. L’analogia con la 
   psicologia non è casuale. Terence McKenna ha definito Eliade (almeno per quanto riguarda lo studio delle religioni) l’erede di Carl Gustav Jung 
   (il quale ha scritto, tra l’altro, <span>La psicologia del Kundalini-Yoga</span> e <span>Lo Yoga e l'Occidente</span>, quest’ultimo pubblicato l’anno della prima edizione 
   dello <span>Yoga</span> di Eliade). Jung, lasciatosi alle spalle il positivismo di Freud, pensava che le religioni fossero <span>prodotti spontanei</span> della psiche umana, 
@@ -41,9 +42,12 @@ function Article() {
   Pur avendo studiato e praticato lo yoga per anni, Eliade sa benissimo che i nostri modelli mentali sono diversi da quelli indiani; non possiamo accettare ciecamente 
   le soluzioni proposte dall’India: “un valore spirituale non si acquista come un’automobile di nuova marca”. Egli invita a un’esplorazione della psiche, 
   non a un “detestabile ibridismo spirituale” (ovvero la ginnastica all’incenso che, oggi, possiamo praticare nelle periferie delle nostre misere città); 
-  invita a superare il provincialismo culturale, a pensare in termini di Storia Universale e, soprattutto, a creare <span>valori spirituali universali</span>. 
+  invita a superare il provincialismo culturale, a pensare in termini di Storia Universale e, soprattutto, a creare <span>valori spirituali universali</span>. <br />
+  Vedremo come lo Yoga pensa di arrivare al suo più grande scopo: la Liberazione, l’assoluta libertà e spontaineità della <span>coscienza-testimone</span> svincolata dalla temporalità e 
+  dai condizionamenti psicofisiologici. In altre parole, il “sogno che ossessiona lo spirito umano fin dalle origini della storia: coincidere con il Tutto, recuperare l’Unità, 
+  ricostruire la non-dualità iniziale, abolire il Tempo e la Creazione”.
    </p>
-
+   <ArticlesArrow arrowSxLink='/articoli/lo-yoga' arrowDxLink={null} />
     </ArticleWrapper>)
 }
 

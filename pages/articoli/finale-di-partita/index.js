@@ -1,6 +1,7 @@
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import ArticleWrapper from '../../../components/Articles/Article';
+import ArticlesArrow from '../../../components/UI/ArticlesArrows';
 import style from '../../../styles/components/article.module.css';
 
 function Article() {
@@ -24,6 +25,7 @@ Ciò che differenzia Beckett da buona parte della letteratura a sé contemporane
 Per Adorno l’esistenzialismo rimane aggrappato al concetto formale di esistenza. Cancella l’attenzione per il momento temporale e di conseguenza per quel “particolare”, caro alla “dialettica negativa” del filosofo francofortese. Ogni qual volta che incontriamo in Beckett una dottrina o teoria filosofica, 
 la troviamo portata volutamente all’estremo della sua depravazione. A dirla con Bertinetti: Adorno ha «identificato filosoficamente il senso del dramma nella sua mancanza di senso». L’autore irlandese impone così nelle sue opere un rigido rifiuto nei confronti della sensatezza, dei significati e quindi in ultima analisi di tutta la cultura.
  </p>
+ <ArticlesArrow arrowSxLink={null} arrowDxLink='/articoli/finale-di-partita/parte2' />
     </ArticleWrapper>
 }
 
