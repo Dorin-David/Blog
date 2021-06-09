@@ -18,20 +18,18 @@
  .dx {
     right: 0;
     top: 50%;
-    // margin-top: -50px;
 }
 
  .sx {
     left: 0;
     top: 50%;
-    // margin-top: -50px;
 }
 
 @media (max-width: 950px){
     .button {
         position: initial;
         display: inline-block;
-        margin: 1rem;
+        margin-bottom: 0;
     }
     .sx {
         margin-left: calc(50% - 80px)

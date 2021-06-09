@@ -47,6 +47,19 @@
   color: #787676;
 }
 
+.whatsApp-link {
+  width: 40px;
+  display: block;
+  margin: auto;
+  font-size: 2.5rem;
+  color: #09a55a;
+}
+
+@media (min-width: 500px) {
+  .whatsApp-link {
+    display: none;
+  }
+}
 @media (max-width: 1200px) {
   .article p {
     width: 80%;

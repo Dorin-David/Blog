@@ -10,9 +10,17 @@ function Collections(props) {
         filteredCollection = collections.filter(collection => filterCriteria.every(filter => collection[filter] === props.filter[filter]))
     }
 
-    return <div className={style['collection-layout']}>
-        <CollectionList collectionList={filteredCollection} />
-    </div>
+    return (
+        <>
+            {filteredCollection.length > 0 ? <h1>Raccolte</h1> : null}
+            <div className={style['collection-layout']}>
+
+                <CollectionList collectionList={filteredCollection} />
+            </div>
+        </>
+    )
+
+
 }
 
 export default Collections

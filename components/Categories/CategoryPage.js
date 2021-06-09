@@ -11,7 +11,7 @@ function CategoryPage(props) {
     return (<>
         <Header>{category[0].toUpperCase() + category.slice(1)}</Header>
         <div>
-            <h1>Raccolte</h1>
+            {/* <h1>Raccolte</h1> */}
         <Collections filter={{category}}/>
         </div>
         <h1>Articoli</h1>

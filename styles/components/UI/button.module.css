@@ -28,7 +28,7 @@
   .button {
     position: initial;
     display: inline-block;
-    margin: 1rem;
+    margin-bottom: 0;
   }
 
   .sx {

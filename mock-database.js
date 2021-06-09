@@ -9,10 +9,8 @@ const database = [
         author_path: 'dorin_david',
         article_path: '/articoli/lo-yoga/parte2',
         img: '/assets/mircea_eliade.jpg',
-        description: `Eliade invita gli occidentali a studiare un’esperienza millenaria per cercare, se non proprio 
-        risposte, spunti per le nostre domande più pressanti; a comprendere ciò che l’India ha da dire sui molteplici “condizionamenti” dell’essere 
-        umano; come ha affrontato il problema della sua temporalità e storicità, e soprattutto la soluzione che ha proposto per l’angoscia e la 
-        disperazione che scaturiscono dalla presa di coscienza della propria condizione`,
+        description: `Per cercare di vedere oltre l’esistenza condizionata, millenni prima della psicologia del profondo, i saggi indiani hanno esplorato le zone più profonde 
+        e oscure dell’inconscio`,
         category: 'filosofia',
         collection: 'Lo Yoga - Mircea Eliade',
         orderCollection: 2,
