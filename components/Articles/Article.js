@@ -6,7 +6,7 @@ function Article(props) {
     const router = useRouter();
     return <div className={style.article}>
         {props.children}
-        <a href={`whatsapp://send?text=${router.asPath}`} target="_blank" className={style['whatsApp-link']}>< IoLogoWhatsapp /></a>
+        <a href={`whatsapp://send?text=https://dintorni.herokuapp.com/${router.asPath}`} target="_blank" className={style['whatsApp-link']}>< IoLogoWhatsapp /></a>
     </div>
 }
 
