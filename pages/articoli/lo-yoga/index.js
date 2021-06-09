@@ -6,7 +6,7 @@ import style from '../../../styles/components/article.module.css';
 
 function Article() {
     const router = useRouter();
-
+    
     return (<ArticleWrapper>
         <h1>Lo Yoga</h1>
         <h2>Introduzione (parte prima)</h2>
