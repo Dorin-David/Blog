@@ -5,6 +5,33 @@ const database = [
     {
         title: `Mircea Eliade - "Lo Yoga"`,
         author: 'Dorin David',
+        header: `Introduzione (parte seconda)`,
+        author_path: 'dorin_david',
+        article_path: '/articoli/lo-yoga/parte2',
+        img: '/assets/mircea_eliade.jpg',
+        description: `Eliade invita gli occidentali a studiare un’esperienza millenaria per cercare, se non proprio 
+        risposte, spunti per le nostre domande più pressanti; a comprendere ciò che l’India ha da dire sui molteplici “condizionamenti” dell’essere 
+        umano; come ha affrontato il problema della sua temporalità e storicità, e soprattutto la soluzione che ha proposto per l’angoscia e la 
+        disperazione che scaturiscono dalla presa di coscienza della propria condizione`,
+        category: 'filosofia',
+        collection: 'Lo Yoga - Mircea Eliade',
+        orderCollection: 2,
+      
+    },
+    {
+        title: `Kynodontas`,
+        author: 'Bruno Lusardi',
+        author_path: 'bruno_lusardi',
+        article_path: '/articoli/kynodontas',
+        img: '/assets/kynodontas.jpg',
+        description: `  Due sorelle e il fratello sono nati e cresciuti nella loro casa, e lì ancora vivono, assieme ai genitori, crescono e si
+        sviluppano. La casa è recintata e, ai figli ormai “adulti”, è severamente vietato uscire dal cancello o avere qualsiasi contatto con il mondo fuori dalla casa: un fratello che ha
+        infranto le regole, è uscito e non ha fatto più ritorno`,
+        category: 'cinema'
+    },
+    {
+        title: `Mircea Eliade - "Lo Yoga"`,
+        author: 'Dorin David',
         header: `Introduzione (parte prima)`,
         author_path: 'dorin_david',
         article_path: '/articoli/lo-yoga',
