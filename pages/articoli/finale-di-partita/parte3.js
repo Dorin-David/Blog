@@ -1,7 +1,6 @@
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import ArticleWrapper from '../../../components/Articles/Article';
-import ArticlesArrow from '../../../components/UI/ArticlesArrows';
 import style from '../../../styles/components/article.module.css';
 
 function Article() {
@@ -35,7 +34,6 @@ uguaglianza. Ecco che emerge l’atteggiamento parodico di Samuel Beckett verso 
 che fanno del soggetto un fondamento, una pura celebrazione. L’irlandese porta all’assurdo la
 categoria di esistenza smascherandola nelle vesti di un’astrattezza ontologica.
       </p>
-      <ArticlesArrow arrowSxLink='/articoli/finale-di-partita/parte2' arrowDxLink='/articoli/finale-di-partita/parte4' />
     </ArticleWrapper>
 }
 

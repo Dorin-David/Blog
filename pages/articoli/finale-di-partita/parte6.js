@@ -1,7 +1,6 @@
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import ArticleWrapper from '../../../components/Articles/Article';
-import ArticlesArrow from '../../../components/UI/ArticlesArrows';
 import style from '../../../styles/components/article.module.css';
 
 function Article() {
@@ -50,7 +49,6 @@ Non ci sarà più voce». Nella sua riflessione Adorno mette in risalto una cert
 morte da parte di Clov, che si traduce in una particolare propensione verso la stasi e dunque verso
 il silenzio preso in esame finora.
    </p>
-   <ArticlesArrow arrowSxLink='/articoli/finale-di-partita/parte5' arrowDxLink={null} />
     </ArticleWrapper>
 }
 

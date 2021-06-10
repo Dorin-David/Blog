@@ -1,7 +1,6 @@
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import ArticleWrapper from '../../../components/Articles/Article';
-import ArticlesArrow from '../../../components/UI/ArticlesArrows';
 import style from '../../../styles/components/article.module.css';
 
 function Article() {
@@ -43,7 +42,6 @@ molto efficace che aiuta a comprendere meglio i concetti fino ad ora espressi: <
 «Ma nello spirito deve ancora riflettersi il lamento che ormai non è più possibile nessun lamento.
 Nessun pianto scioglie la corazza: rimane solo il volto su cui le lacrime si sono disseccate».
    </p>
-   <ArticlesArrow arrowSxLink='/articoli/finale-di-partita/parte3' arrowDxLink='/articoli/finale-di-partita/parte5' />
     </ArticleWrapper>
 }
 

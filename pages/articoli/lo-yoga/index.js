@@ -1,7 +1,6 @@
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import ArticleWrapper from '../../../components/Articles/Article';
-import ArticlesArrow from '../../../components/UI/ArticlesArrows';
 import style from '../../../styles/components/article.module.css';
 
 function Article() {
@@ -40,7 +39,6 @@ function Article() {
             Una o due generazioni prima, l’Europa aveva guardato all’India ispirata dalla filosofia idealista di un Schopenhauer e dal fascino della immagini primordiali; ai tempi di Eliade vi scopriva risposte alle
             sue domande più pressanti circa i problemi della temporalità e della storicità e della loro influenza sulle vite e i destini degli esseri uomani.
          </p>
-         <ArticlesArrow arrowSxLink={null} arrowDxLink={'/articoli/lo-yoga/parte2'} />
     </ArticleWrapper>)
 }
 

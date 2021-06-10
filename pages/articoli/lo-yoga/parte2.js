@@ -1,7 +1,6 @@
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import ArticleWrapper from '../../../components/Articles/Article';
-import ArticlesArrow from '../../../components/UI/ArticlesArrows';
 import style from '../../../styles/components/article.module.css';
 
 function Article() {
@@ -47,7 +46,6 @@ function Article() {
   dai condizionamenti psicofisiologici. In altre parole, il “sogno che ossessiona lo spirito umano fin dalle origini della storia: coincidere con il Tutto, recuperare l’Unità, 
   ricostruire la non-dualità iniziale, abolire il Tempo e la Creazione”.
    </p>
-   <ArticlesArrow arrowSxLink='/articoli/lo-yoga' arrowDxLink={null} />
     </ArticleWrapper>)
 }
 

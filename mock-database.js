@@ -23,7 +23,9 @@ const database = [
         sono «strappate al flusso della schizofrenia» al fine di portare a mera superfluità «ciò che il soggetto è comunque ancora in grado di fare».`,
         category: 'filosofia',
         collection: 'Adorno legge Beckett',
-        orderCollection: 6
+        orderCollection: 6,
+        previousArticle: '/articoli/finale-di-partita/parte5',
+        nextArticle: null
     },
     {
         title: `Mircea Eliade - "Lo Yoga"`,
@@ -37,6 +39,8 @@ const database = [
         category: 'filosofia',
         collection: 'Lo Yoga - Mircea Eliade',
         orderCollection: 2,
+        previousArticle: '/articoli/lo-yoga',
+        nextArticle: null
     },
     {
         title: `Kynodontas`,
@@ -61,6 +65,8 @@ const database = [
         category: 'filosofia',
         collection: 'Lo Yoga - Mircea Eliade',
         orderCollection: 1,
+        previousArticle: null,
+        nextArticle: '/articoli/lo-yoga/parte2'
       
     },
     {
@@ -95,7 +101,9 @@ const database = [
         identico a sé medesimo.`,
         category: 'filosofia',
         collection: 'Adorno legge Beckett',
-        orderCollection: 5
+        orderCollection: 5,
+        previousArticle: '/articoli/finale-di-partita/parte4',
+        nextArticle: '/articoli/finale-di-partita/parte6'
     },
     {
         title: 'Le voci',
@@ -123,7 +131,9 @@ const database = [
         sopravvive proprio perché è stato evitato, eliminato.`,
         category: 'filosofia',
         collection: 'Adorno legge Beckett',
-        orderCollection: 4
+        orderCollection: 4,
+        previousArticle: '/articoli/finale-di-partita/parte3',
+        nextArticle: '/articoli/finale-di-partita/parte5'
     },
     {
         title: 'Adorno e \"Finale di Partita\"',
@@ -136,7 +146,9 @@ const database = [
         silentemente di essere sopravvissuti ad una catastrofe.`,
         category: 'filosofia',
         collection: 'Adorno legge Beckett',
-        orderCollection: 3
+        orderCollection: 3,
+        previousArticle: '/articoli/finale-di-partita/parte2',
+        nextArticle: '/articoli/finale-di-partita/parte4'
     },
     {
     title: `Ultimo tango a Parigi`,
@@ -172,7 +184,9 @@ const database = [
         che la stessa parola “senso” provoca.`,
         category: 'filosofia',
         collection: 'Adorno legge Beckett',
-        orderCollection: 2
+        orderCollection: 2,
+        previousArticle: '/articoli/finale-di-partita',
+        nextArticle: '/articoli/finale-di-partita/parte3'
     },
     {
         title: 'Ordet',
@@ -207,7 +221,9 @@ const database = [
         In opposizione a questo atteggiamento Beckett invece riesce a svincolare da secondi fini il procedimento poetico. `,
         category: 'filosofia',
         collection: 'Adorno legge Beckett',
-        orderCollection: 1
+        orderCollection: 1,
+        previousArticle: null,
+        nextArticle: '/articoli/finale-di-partita/parte2'
     },
     {
         title: 'Parasite',
