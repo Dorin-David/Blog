@@ -1,4 +1,5 @@
 import ArticleWrapper from '../../components/Articles/Article';
+import style from '../../styles/components/article.module.css'
 
 function Article(){
 
