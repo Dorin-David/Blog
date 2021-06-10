@@ -1,16 +1,9 @@
-import { useRouter } from 'next/router';
 import ArticleWrapper from '../../components/Articles/Article';
-import style from '../../styles/components/article.module.css';
-
 
 function Article(){
     const router = useRouter();
 
     return (<ArticleWrapper>
-         <h1>Segni</h1>
-         <h2>Pensieri in una notte di primavera</h2>
-         <p className={style.author} 
-        onClick={() => router.push('/autori/dorin_david')}>Dorin David</p>
          <p>
          E’ sempre nelle piccole cose, nei dettagli, che si trova il Tutto. Perché nel dettaglio sta ciò che rende unico qualcosa, oppure esso 
          è solo una banale appendice, superfluo; in ogni caso, è partendo dal dettaglio che si può risalire all’essenziale, come si risale da una foglia 

@@ -1,17 +1,9 @@
-import { useRouter } from 'next/router';
-import Link from 'next/link';
 import ArticleWrapper from '../../../components/Articles/Article';
 import style from '../../../styles/components/article.module.css';
 
 function Article() {
-    const router = useRouter();
-    
+
     return (<ArticleWrapper>
-        <h1>Lo Yoga</h1>
-        <h2>Introduzione (parte prima)</h2>
-        <p className={style.author}
-            onClick={() => router.push('/autori/dorin_david')}>Dorin David</p>
-                    <p className={style.info}>(Questo articolo è parte di una serie. Potete trovare gli altri articoli <Link href="/raccolte/lo-yoga-mircea-eliade">qui</Link>)</p>
         <p>
             Per il lettore contemporaneo il termine <span>yoga</span> non è più esoterico di <span>pilates</span> o <span>stretching</span>, e in effetti questi termini, nella sua testa,
          se proprio non si equivalgono probabilmente non si discostano molto. Ma prima di diventare una ginnastica con pretese spirituali, alla

@@ -1,15 +1,8 @@
-import { useRouter } from 'next/router';
 import ArticleWrapper from '../../components/Articles/Article';
-import style from '../../styles/components/article.module.css';
-
 
 function Article() {
-    const router = useRouter();
 
     return (<ArticleWrapper>
-        <h1>Chant d'Hiver</h1>
-        <p className={style.author}
-            onClick={() => router.push('/autori/bruno_lusardi')}>Bruno Lusardi</p>
         <p>
         Otar Iosseliani, nel 2015, firma <span>Chant d’Hiver</span>, ovvero un <span>canto della fine</span>. 
         La fine e il principio, comunque, sono la

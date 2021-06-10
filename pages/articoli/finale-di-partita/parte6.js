@@ -1,19 +1,9 @@
-import { useRouter } from 'next/router';
-import Link from 'next/link';
 import ArticleWrapper from '../../../components/Articles/Article';
-import style from '../../../styles/components/article.module.css';
 
 function Article() {
-    const router = useRouter()
 
     return <ArticleWrapper>
-        <h1>Adorno e “Finale di partita” </h1>
-        <h2>(parte sesta)</h2>
-        <p className={style.author} 
-        onClick={() => router.push('/autori/luigi-rizzo')}>Luigi Rizzo</p>
-          <p className={style.info}>(Questo articolo è parte di una serie. Potete trovare gli altri articoli <Link href="/raccolte/adorno-legge-beckett">qui</Link>)</p>
-   <p>
-   Ogni soggettività che si incontra nell’opera dell’irlandese è contraddistinta da un fare
+   <p>Ogni soggettività che si incontra nell’opera dell’irlandese è contraddistinta da un fare
 schizofrenico. Le azioni sono fatte ripetere in maniera frequente e compulsiva, arrivando così a
 svuotarsi di ogni sensatezza. Un caso esemplare è quello di Clov, che continuerà imperterrito a
 spiare dalla finestra e a spostare in carrozzella il compagno Hamm senza mete e fini ben definiti.

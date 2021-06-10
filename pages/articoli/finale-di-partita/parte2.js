@@ -1,19 +1,9 @@
-import { useRouter } from 'next/router';
-import Link from 'next/link';
 import ArticleWrapper from '../../../components/Articles/Article';
-import style from '../../../styles/components/article.module.css';
 
 function Article() {
-    const router = useRouter()
 
     return <ArticleWrapper>
-        <h1>Adorno e “Finale di partita”</h1>
-        <h2>(parte seconda)</h2>
-        <p className={style.author} 
-        onClick={() => router.push('/autori/luigi-rizzo')}>Luigi Rizzo</p>
-          <p className={style.info}>(Questo articolo è parte di una serie. Potete trovare gli altri articoli <Link href="/raccolte/adorno-legge-beckett">qui</Link>)</p>
-      <p>
-Il lavoro di demolizione beckettiano si radica in maniera incisiva ed evidente soprattutto nella sfera del linguaggio. 
+      <p>Il lavoro di demolizione beckettiano si radica in maniera incisiva ed evidente soprattutto nella sfera del linguaggio. 
 Beckett si libera dell’illusione che gli avvenimenti siano di per sé significanti, insinuando volutamente ambiguità e polivalenze 
 che la stessa parola “senso” provoca. Il linguaggio impiegato in <span>Finale di Partita</span> è fortemente regressivo. “La logica del disincanto”, 
 portata al limite da Beckett, satura tutti gli elementi della rappresentazione teatrale e penetra prima nelle parole, e poi soprattutto nel 

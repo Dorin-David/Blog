@@ -1,16 +1,10 @@
-import { useRouter } from 'next/router';
 import ArticleWrapper from '../../components/Articles/Article';
-import style from '../../styles/components/article.module.css';
 
 function Article(){
     const router = useRouter();
 
     return (<ArticleWrapper>
-         <h1>The Naked Lunch</h1>
-         <p className={style.author} 
-        onClick={() => router.push('/autori/bruno_lusardi')}>Bruno Lusardi</p>
-         <p>
-         <span>The Naked Lunch</span>, prima d’essere il titolo del film di David
+         <p><span>The Naked Lunch</span>, prima d’essere il titolo del film di David
 Cronenberg, è il titolo del romanzo di William Burroughs,
 scrittore americano e tossicomane della <span>Beat Generation</span> –
 per chi la conosce. <br />

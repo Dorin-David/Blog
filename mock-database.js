@@ -23,6 +23,7 @@ const database = [
         sono «strappate al flusso della schizofrenia» al fine di portare a mera superfluità «ciò che il soggetto è comunque ancora in grado di fare».`,
         category: 'filosofia',
         collection: 'Adorno legge Beckett',
+        collection_path: '/raccolte/adorno-legge-beckett',
         orderCollection: 6,
         previousArticle: '/articoli/finale-di-partita/parte5',
         nextArticle: null
@@ -38,6 +39,7 @@ const database = [
         e oscure dell’inconscio.`,
         category: 'filosofia',
         collection: 'Lo Yoga - Mircea Eliade',
+        collection_path: '/raccolte/lo-yoga-mircea-eliade',
         orderCollection: 2,
         previousArticle: '/articoli/lo-yoga',
         nextArticle: null
@@ -64,6 +66,7 @@ const database = [
         la struttura dei loro simboli, la funzione dei loro miti, la maturità delle loro mistiche”. `,
         category: 'filosofia',
         collection: 'Lo Yoga - Mircea Eliade',
+        collection_path: '/raccolte/lo-yoga-mircea-eliade',
         orderCollection: 1,
         previousArticle: null,
         nextArticle: '/articoli/lo-yoga/parte2'
@@ -101,6 +104,7 @@ const database = [
         identico a sé medesimo.`,
         category: 'filosofia',
         collection: 'Adorno legge Beckett',
+        collection_path: '/raccolte/adorno-legge-beckett',
         orderCollection: 5,
         previousArticle: '/articoli/finale-di-partita/parte4',
         nextArticle: '/articoli/finale-di-partita/parte6'
@@ -131,6 +135,7 @@ const database = [
         sopravvive proprio perché è stato evitato, eliminato.`,
         category: 'filosofia',
         collection: 'Adorno legge Beckett',
+        collection_path: '/raccolte/adorno-legge-beckett',
         orderCollection: 4,
         previousArticle: '/articoli/finale-di-partita/parte3',
         nextArticle: '/articoli/finale-di-partita/parte5'
@@ -146,6 +151,7 @@ const database = [
         silentemente di essere sopravvissuti ad una catastrofe.`,
         category: 'filosofia',
         collection: 'Adorno legge Beckett',
+        collection_path: '/raccolte/adorno-legge-beckett',
         orderCollection: 3,
         previousArticle: '/articoli/finale-di-partita/parte2',
         nextArticle: '/articoli/finale-di-partita/parte4'
@@ -184,6 +190,7 @@ const database = [
         che la stessa parola “senso” provoca.`,
         category: 'filosofia',
         collection: 'Adorno legge Beckett',
+        collection_path: '/raccolte/adorno-legge-beckett',
         orderCollection: 2,
         previousArticle: '/articoli/finale-di-partita',
         nextArticle: '/articoli/finale-di-partita/parte3'
@@ -221,6 +228,7 @@ const database = [
         In opposizione a questo atteggiamento Beckett invece riesce a svincolare da secondi fini il procedimento poetico. `,
         category: 'filosofia',
         collection: 'Adorno legge Beckett',
+        collection_path: '/raccolte/adorno-legge-beckett',
         orderCollection: 1,
         previousArticle: null,
         nextArticle: '/articoli/finale-di-partita/parte2'

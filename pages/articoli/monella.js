@@ -1,14 +1,8 @@
-import { useRouter } from 'next/router';
 import ArticleWrapper from '../../components/Articles/Article';
-import style from '../../styles/components/article.module.css';
 
 function Article(){
-    const router = useRouter();
 
     return (<ArticleWrapper>
-         <h1>Monella</h1>
-         <p className={style.author} 
-        onClick={() => router.push('/autori/bruno_lusardi')}>Bruno Lusardi</p>
    <p>
    Tinto Brass era un uomo ossessionato. Precisamente, era
 ossessionato dai culi femminili. “Il culo è lo specchio

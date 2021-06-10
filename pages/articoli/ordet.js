@@ -1,16 +1,10 @@
-import { useRouter } from 'next/router'
 import ArticleWrapper from '../../components/Articles/Article';
-import style from '../../styles/components/article.module.css';
 
 function Article() {
     const router = useRouter()
 
     return <ArticleWrapper>
-        <h1>Ordet</h1>
-        <p className={style.author}
-            onClick={() => router.push('/autori/bruno_lusardi')}>Bruno Lusardi</p>
-        <p>
-<span>Ordet</span> di Dreyer è uno dei capolavori indiscutibili della storia
+        <p><span>Ordet</span> di Dreyer è uno dei capolavori indiscutibili della storia
 del cinema: ciò, dovrebbe essere come un giorno sulla Terra:<span> bastevole</span>. <br />
 Questo era uno scherzo, non ci si deve mica arrabbiare.
 Tuttavia, <span>davvero</span> non pare esserci molto da dire su questo

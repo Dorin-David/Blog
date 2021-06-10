@@ -1,15 +1,8 @@
-import { useRouter } from 'next/router';
 import ArticleWrapper from '../../components/Articles/Article';
-import style from '../../styles/components/article.module.css';
-
 
 function Article() {
-    const router = useRouter();
 
     return (<ArticleWrapper>
-        <h1>I hired a contract killer</h1>
-        <p className={style.author}
-            onClick={() => router.push('/autori/bruno_lusardi')}>Bruno Lusardi</p>
         <p>
         Goffredo Fofi ha scritto un libro intitolato “Il cinema del <span>no</span>”.
 Leggendolo, in una mezza giornata, si scopre che possono

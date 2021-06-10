@@ -1,16 +1,9 @@
-import { useRouter } from 'next/router';
 import ArticleWrapper from '../../components/Articles/Article';
-import style from '../../styles/components/article.module.css';
-
 
 function Article() {
-    const router = useRouter();
 
     return (<ArticleWrapper>
-        <h1>Kynodontas</h1>
-        <p className={style.author}
-            onClick={() => router.push('/autori/bruno_lusardi')}>Bruno Lusardi</p>
-        <p style={{textAlign: "justify"}}>
+        <p>
             Yorgos Lanthimos fa parte di quella <span>nouvelle vague</span> greca
             degli anni Duemila, definita tale dagli amanti delle
             “avanguardie” e delle “modalità”. Più che farne parte,

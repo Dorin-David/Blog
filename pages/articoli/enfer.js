@@ -1,15 +1,8 @@
-import { useRouter } from 'next/router';
 import ArticleWrapper from '../../components/Articles/Article';
-import style from '../../styles/components/article.module.css';
-
 
 function Article() {
-    const router = useRouter();
 
     return (<ArticleWrapper>
-        <h1>L'enfer</h1>
-        <p className={style.author}
-            onClick={() => router.push('/autori/bruno_lusardi')}>Bruno Lusardi</p>
         <p>
             <span>L’Enfer </span> può dirsi opera mancata <span>prima</span>, ed opera malriuscita
             <span> dopo</span>: forse, quindi, un’opera <span>mai</span> realizzata. Qualcuno

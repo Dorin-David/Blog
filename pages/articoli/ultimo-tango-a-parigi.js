@@ -1,15 +1,8 @@
-import { useRouter } from 'next/router';
 import ArticleWrapper from '../../components/Articles/Article';
-import style from '../../styles/components/article.module.css';
-
 
 function Article(){
-    const router = useRouter();
 
     return (<ArticleWrapper>
-         <h1>Ultimo tango a Parigi</h1>
-         <p className={style.author} 
-        onClick={() => router.push('/autori/bruno_lusardi')}>Bruno Lusardi</p>
         <p>
         Pare che Bernardo Bertolucci si sia sempre impegnato a
 realizzare <span>grandi</span> film, soprattutto in quanto dimensioni e

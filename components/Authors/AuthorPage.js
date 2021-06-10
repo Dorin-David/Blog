@@ -14,7 +14,7 @@ function AuthorPage(props) {
     collections = (
       <>
         <Header>Raccolte</Header>
-        <Collections filter={{ author: props.author }} />
+        <Collections filter={{ author: props.author }} hideSectionTitles={true} />
       </>
     )
   }

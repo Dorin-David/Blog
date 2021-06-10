@@ -1,15 +1,8 @@
-import { useRouter } from 'next/router';
 import ArticleWrapper from '../../components/Articles/Article';
-import style from '../../styles/components/article.module.css';
-
 
 function Article(){
-    const router = useRouter();
 
     return (<ArticleWrapper>
-         <h1>Sunset Boulevard</h1>
-         <p className={style.author} 
-        onClick={() => router.push('/autori/bruno_lusardi')}>Bruno Lusardi</p>
            <p>
            Per chi non solo è interessato al Cinema, ma pure per chi ne
 ha sentito parlare almeno una volta nella vita, il nome Billy

@@ -1,17 +1,9 @@
-import { useRouter } from 'next/router';
 import ArticleWrapper from '../../components/Articles/Article';
-import style from '../../styles/components/article.module.css';
 
 function Article(){
-    const router = useRouter();
 
     return (<ArticleWrapper>
-         <h1>Parasite</h1>
-         <p className={style.author} 
-        onClick={() => router.push('/autori/bruno_lusardi')}>Bruno Lusardi</p>
-
-        <p>
-        Ci si contende un po’ di gloria, fra Corea del Nord e Corea
+        <p>Ci si contende un po’ di gloria, fra Corea del Nord e Corea
 del Sud. L’unico cinema degno ci proviene dalla Corea del
 Sud; perché è probabile sia l’unico, potendo in Meridione
 dire senza sentirsi tagliare la lingua, potrebbe dire qualcuno.

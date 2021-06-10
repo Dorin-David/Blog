@@ -1,17 +1,7 @@
-import { useRouter } from 'next/router';
-import Link from 'next/link';
 import ArticleWrapper from '../../../components/Articles/Article';
-import style from '../../../styles/components/article.module.css';
 
 function Article() {
-    const router = useRouter();
-
     return (<ArticleWrapper>
-        <h1>Lo Yoga</h1>
-        <h2>Introduzione (parte seconda)</h2>
-        <p className={style.author}
-            onClick={() => router.push('/autori/dorin_david')}>Dorin David</p>
-                    <p className={style.info}>(Questo articolo è parte di una serie. Potete trovare gli altri articoli <Link href="/raccolte/lo-yoga-mircea-eliade">qui</Link>)</p>
    <p>
    La coscienza europea ha iniziato a comprendere meglio la filosofia indiana quando ha iniziato a studiare i fattori che “condizionano” l’essere 
    umano: la fisiologia, l’eredità, l’ambiente, la cultura e, soprattutto, la Storia, la propria vicenda personale in un dato momento storico. 

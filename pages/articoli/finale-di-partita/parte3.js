@@ -1,19 +1,9 @@
-import { useRouter } from 'next/router';
-import Link from 'next/link';
 import ArticleWrapper from '../../../components/Articles/Article';
-import style from '../../../styles/components/article.module.css';
 
 function Article() {
-    const router = useRouter()
-
+  
     return <ArticleWrapper>
-        <h1>Adorno e “Finale di partita” </h1>
-        <h2>(parte terza)</h2>
-        <p className={style.author} 
-        onClick={() => router.push('/autori/luigi-rizzo')}>Luigi Rizzo</p>
-          <p className={style.info}>(Questo articolo è parte di una serie. Potete trovare gli altri articoli <Link href="/raccolte/adorno-legge-beckett">qui</Link>)</p>
-      <p>
-      Prima di arrivare a parlare del “realismo beckettiano”, torniamo a descrivere la natura enigmatica
+      <p> Prima di arrivare a parlare del “realismo beckettiano”, torniamo a descrivere la natura enigmatica
 del lavoro teatrale in questione. Il contesto in cui si svolge il dramma lascia presagire che sia post-apocalittico. 
 I dialoghi spesso inconsistenti dei due personaggi, Clov e Hamm, lasciano intendere
 silentemente di essere sopravvissuti ad una catastrofe. Adorno però spiega che tale catastrofe

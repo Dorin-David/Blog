@@ -1,14 +1,8 @@
-import { useRouter } from 'next/router';
 import ArticleWrapper from '../../components/Articles/Article';
-import style from '../../styles/components/article.module.css';
 
 function Article(){
-    const router = useRouter();
 
     return (<ArticleWrapper>
-         <h1>The killer inside me</h1>
-         <p className={style.author} 
-        onClick={() => router.push('/autori/bruno_lusardi')}>Bruno Lusardi</p>
          <p>
          <span>The Killer Inside Me</span>, del 2010, è un film di Michael
 Winterbottom: Casey Affleck da una parte e Jessica Alba

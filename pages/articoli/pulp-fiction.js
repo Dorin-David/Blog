@@ -1,18 +1,9 @@
-import { useRouter } from 'next/router';
 import ArticleWrapper from '../../components/Articles/Article';
-import style from '../../styles/components/article.module.css';
-
 
 function Article(){
-    const router = useRouter();
 
     return (<ArticleWrapper>
-         <h1>Pulp Fiction</h1>
-         <p className={style.author} 
-        onClick={() => router.push('/autori/bruno_lusardi')}>Bruno Lusardi</p>
-   
-           <p>
-           A proposito di <span>Pulp Fiction</span>, si è detto e scritto abbastanza,
+           <p> A proposito di <span>Pulp Fiction</span>, si è detto e scritto abbastanza,
 sin da quel 1994 in cui tutto ebbe inizio. Tanto si è scritto e
 detto che può parere banale e stupido continuare, forse
 irrilevante. <br /> 

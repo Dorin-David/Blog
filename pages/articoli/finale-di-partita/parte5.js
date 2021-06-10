@@ -1,19 +1,9 @@
-import { useRouter } from 'next/router';
-import Link from 'next/link';
 import ArticleWrapper from '../../../components/Articles/Article';
-import style from '../../../styles/components/article.module.css';
 
 function Article() {
-    const router = useRouter()
 
     return <ArticleWrapper>
-        <h1>Adorno e “Finale di partita” </h1>
-        <h2>(parte quinta)</h2>
-        <p className={style.author} 
-        onClick={() => router.push('/autori/luigi-rizzo')}>Luigi Rizzo</p>
-          <p className={style.info}>(Questo articolo è parte di una serie. Potete trovare gli altri articoli <Link href="/raccolte/adorno-legge-beckett">qui</Link>)</p>
-   <p>
-   Dalle rappresentazioni teatrali di Beckett appare una completa indifferenza tra interno ed esterno.
+   <p> Dalle rappresentazioni teatrali di Beckett appare una completa indifferenza tra interno ed esterno.
 Ogni soggettività è completamente vuota ed ogni personaggio è annientato nella propria
 personalità e corporeità. I personaggi beckettiani sono infatti contraddistinti da vere e proprie
 mutilazioni corporee. In <span> Finale di partita </span> ad esempio Hamm è in sedia rotelle ed è

@@ -1,15 +1,9 @@
-import { useRouter } from 'next/router';
 import ArticleWrapper from '../../components/Articles/Article';
 import style from '../../styles/components/article.module.css';
 
 function Article(){
-    const router = useRouter();
 
     return (<ArticleWrapper>
-         <h1>La Ruota</h1>
-         <h2>Riflessioni dopo una sconfitta a scacchi</h2>
-         <p className={style.author} 
-        onClick={() => router.push('/autori/dorin_david')}>Dorin David</p>
          <p>
          Riuscirò mai a liberarmi di me stesso? Domanda idiota… ritento: riuscirò mai a non essere il nemico di me stesso? 
          Ci si crede cambiati, e invece si ricasca nelle vecchie trappole di sempre, ed è tanto più frustrante quanto più ci si rende conto 

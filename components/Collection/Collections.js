@@ -12,7 +12,7 @@ function Collections(props) {
 
     return (
         <>
-            {filteredCollection.length > 0 && !props.hide ? <h1>Raccolte</h1> : null}
+            {filteredCollection.length > 0 && !props.hideSectionTitles ? <h1>Raccolte</h1> : null}
             <div className={style['collection-layout']}>
                 <CollectionList collectionList={filteredCollection} />
             </div>
