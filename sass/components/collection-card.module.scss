@@ -69,3 +69,14 @@
     text-decoration: underline 2px white;
   }
   
+  @media (min-width: 550px) {
+    .card:hover,
+    .card:active,
+    .overlay:hover,
+    .overlay:active {
+      cursor: pointer;
+      .overlay {
+        background: rgba(1, 1, 1, 0.4);
+      }
+    }
+  }

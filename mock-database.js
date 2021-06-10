@@ -3,6 +3,29 @@
 
 const database = [
     {
+        title: `I hired a contract killer`,
+        author: 'Bruno Lusardi',
+        author_path: 'bruno_lusardi',
+        article_path: '/articoli/i-hired-a-contract-killer',
+        img: '/assets/i-hired-a-contract-killer.png',
+        description: `La storia di questo film può essere
+        presto detta: il protagonista vuole farsi fuori ma non riesce,
+        allora assume personalmente un sicario...`,
+        category: 'cinema'
+    },
+    {
+        title: 'Adorno e \"Finale di Partita\"',
+        header: '(parte sesta)',
+        author: 'Luigi Rizzo',
+        author_path: 'luigi_rizzo',
+        article_path: '/articoli/finale-di-partita/parte6',
+        description: `Le conversazioni e le azioni dei personaggi di Fin de partie, dice Adorno, 
+        sono «strappate al flusso della schizofrenia» al fine di portare a mera superfluità «ciò che il soggetto è comunque ancora in grado di fare».`,
+        category: 'filosofia',
+        collection: 'Adorno legge Beckett',
+        orderCollection: 6
+    },
+    {
         title: `Mircea Eliade - "Lo Yoga"`,
         author: 'Dorin David',
         header: `Introduzione (parte seconda)`,
@@ -10,7 +33,7 @@ const database = [
         article_path: '/articoli/lo-yoga/parte2',
         img: '/assets/mircea_eliade.jpg',
         description: `Per cercare di vedere oltre l’esistenza condizionata, millenni prima della psicologia del profondo, i saggi indiani hanno esplorato le zone più profonde 
-        e oscure dell’inconscio`,
+        e oscure dell’inconscio.`,
         category: 'filosofia',
         collection: 'Lo Yoga - Mircea Eliade',
         orderCollection: 2,
@@ -23,7 +46,7 @@ const database = [
         img: '/assets/kynodontas.jpg',
         description: `  Due sorelle e il fratello sono nati e cresciuti nella loro casa, e lì ancora vivono, assieme ai genitori, crescono e si
         sviluppano. La casa è recintata e, ai figli ormai “adulti”, è severamente vietato uscire dal cancello o avere qualsiasi contatto con il mondo fuori dalla casa: un fratello che ha
-        infranto le regole, è uscito e non ha fatto più ritorno`,
+        infranto le regole, è uscito e non ha fatto più ritorno.`,
         category: 'cinema'
     },
     {
@@ -110,7 +133,7 @@ const database = [
         article_path: '/articoli/finale-di-partita/parte3',
         description: `Il contesto in cui si svolge il dramma lascia presagire che sia post-apocalittico. 
         I dialoghi spesso inconsistenti dei due personaggi, Clov e Hamm, lasciano intendere
-        silentemente di essere sopravvissuti ad una catastrofe`,
+        silentemente di essere sopravvissuti ad una catastrofe.`,
         category: 'filosofia',
         collection: 'Adorno legge Beckett',
         orderCollection: 3
@@ -146,7 +169,7 @@ const database = [
         article_path: '/articoli/finale-di-partita/parte2',
         description: `Il lavoro di demolizione beckettiano si radica in maniera incisiva ed evidente soprattutto nella sfera del linguaggio. 
         Beckett si libera dell’illusione che gli avvenimenti siano di per sé significanti, insinuando volutamente ambiguità e polivalenze 
-        che la stessa parola “senso” provoca`,
+        che la stessa parola “senso” provoca.`,
         category: 'filosofia',
         collection: 'Adorno legge Beckett',
         orderCollection: 2
@@ -159,7 +182,7 @@ const database = [
         img: '/assets/ordet.jpg',
         description: `Ogni vera opera deve possedere un che di
         indicibile, di inafferrabile, un pertugio ripetuto da cui soffia,
-        delicato e potente, un vento irresistibile`,
+        delicato e potente, un vento irresistibile.`,
         category: 'cinema'
     },
     {
@@ -207,7 +230,7 @@ const database = [
         Corpo della Donna, figurazione di matrice pittorica. Forse
         nessun altro si è crogiolato tanto, così ridente e appagato,
         nel filmare un bel culo di donna come se esso fosse
-        l’incarnazione della Verità`,
+        l’incarnazione della Verità.`,
         category: 'cinema'
     },
     {
@@ -265,32 +288,10 @@ const database = [
         article_path: '/articoli/segni',
         img: '/assets/memory-1948_magritte.jpg',
         description: `E mi sembra tutto bello, tutto necessario, nella mia stupenda casa in una notte primaverile, chissà che cosa stanno faccendo tutti, 
-        a cosa pensano, con chi sono.  `,
+        a cosa pensano, con chi sono.`,
         category: 'letteratura',
         position: 'center bottom'
     },
-    {
-        title: 'Alan Watts',
-        header: '\"Vuoto e meraviglioso\"',
-        author: 'Dorin David',
-        author_path: 'dorin_david',
-        article_path: '/articoli/zen-alan-watts',
-        img: '/assets/Alan-Watts.jpg',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a velit gravida, tristique leo quis, lacinia quam. Praesent a metus quis turpis blandit tristique. Cras vitae urna vulputate, porttitor elit et, luctus mi.',
-        category: 'filosofia',
-        tags: ['dorin david', 'filosofia', 'zen', 'alan watts',]
-    },
-    {
-        title: 'Witold Gombrowicz',
-        header: 'Enfant terrible',
-        author: 'Dorin David',
-        author_path: 'dorin_david',
-        article_path: '/articoli/gombrowicz',
-        img: '/assets/gombrowicz.jpg',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a velit gravida, tristique leo quis, lacinia quam. Praesent a metus quis turpis blandit tristique. Cras vitae urna vulputate, porttitor elit et, luctus mi.',
-        category: 'letteratura',
-        position: 'center bottom'
-    }
 ]
 
 const collections = [

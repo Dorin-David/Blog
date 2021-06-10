@@ -13,6 +13,7 @@
   width: 70%;
   margin: 0.5rem auto;
   font-size: 1.3rem;
+  text-align: justify;
   line-height: 1.5;
 }
 .article .section-title {

@@ -32,7 +32,7 @@ tra interno ed esterno, tra uomo e natura e quindi tra quest’ultima e il proce
 L’unità storica dell’identità è quindi completamente travolta e dissolta da quel carattere non-
 identico, non affermativo che Adorno andava cercando nell’opera di Beckett e nell’arte in genere.
    </p>
-   <ArticlesArrow arrowSxLink='/articoli/finale-di-partita/parte4' arrowDxLink={null} />
+   <ArticlesArrow arrowSxLink='/articoli/finale-di-partita/parte4' arrowDxLink='/articoli/finale-di-partita/parte6' />
     </ArticleWrapper>
 }
 

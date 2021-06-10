@@ -4,7 +4,7 @@ import Header from '../../components/SectionHeader';
 function CollectionsPage() {
    return <div>
       <Header>Raccolte</Header>
-      <Collections />
+      <Collections hide={true}/>
    </div>
 }
 

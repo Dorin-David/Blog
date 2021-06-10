@@ -18,7 +18,7 @@ function Article() {
    umano: la fisiologia, l’eredità, l’ambiente, la cultura e, soprattutto, la Storia, la propria vicenda personale in un dato momento storico. 
    “La <span>condizione umana</span>”, scrive Eliade, “costituisce l’oggetto della filosofia europea più recente”. In particolare la <span>temporalità</span>, giacché è 
    la temporalità che permette tutti gli altri condizionamenti. Ed è proprio questo il punto centrale (insieme al suo corollario, 
-   il “decondizionamento”) di tutta la filosofia indiana a partire dalle Upanishad. Non a caso, nota Eliade, si è detto che la filosofia indiana 
+   il “decondizionamento”) di tutta la filosofia indiana a partire dalle <span>Upanishad</span>. Non a caso, nota Eliade, si è detto che la filosofia indiana 
    è stata, ed è tutt’ora, “esistenzialista”. Perciò egli invita gli occidentali a studiare un’esperienza millenaria per cercare, se non proprio 
    risposte, spunti per le nostre domande più pressanti; a comprendere ciò che l’India ha da dire sui molteplici “condizionamenti” dell’essere 
    umano; come ha affrontato il problema della sua temporalità e storicità, e soprattutto la soluzione che ha proposto per l’angoscia e la 
