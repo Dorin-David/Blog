@@ -1,7 +1,6 @@
 import ArticleWrapper from '../../components/Articles/Article';
 
 function Article(){
-    const router = useRouter();
 
     return (<ArticleWrapper>
          <p><span>The Naked Lunch</span>, prima d’essere il titolo del film di David

@@ -1,7 +1,6 @@
 import ArticleWrapper from '../../components/Articles/Article';
 
 function Article() {
-    const router = useRouter()
 
     return <ArticleWrapper>
         <p><span>Ordet</span> di Dreyer è uno dei capolavori indiscutibili della storia
