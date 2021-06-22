@@ -15,7 +15,7 @@ function Article() {
    di vedere oltre l’esistenza condizionata, millenni prima della psicologia del profondo, i saggi indiani hanno esplorato le zone più profonde 
    e oscure dell’inconscio; e hanno scoperto che i condizionamenti esterni non sono poi difficili da superare; è dai <span>samskara</span> e dai <span>vasa</span> (“impregnazioni”, “residui”, “stati latenti”), 
    da ciò che la psicologia del profondo chiamerebbe i contenuti e le strutture dell’inconscio, che sorgono i grandi ostacoli alla vita ascetica. <br />
-  Ma non si tratta, qui, solo di conoscere. Eliade lo sottolinea questo punto innumerevoli volte. La filosofia indiana, come ogni altra 
+  Ma non si tratta, qui, solo di conoscere. Eliade sottolinea questo punto innumerevoli volte. La filosofia indiana, come ogni altra 
   via di liberazione (taoismo, buddismo ecc) non si accontenta della gnosi; la conoscenza è solo un mezzo (la Dottrina, dice il Buddha, 
   è solo una barca da utilizzare per arrivare dall’<span>altra parte</span>); si lavora sui contenuti dell’inconscio per “bruciarli”. L’analogia con la 
   psicologia non è casuale. Terence McKenna ha definito Eliade (almeno per quanto riguarda lo studio delle religioni) l’erede di Carl Gustav Jung 

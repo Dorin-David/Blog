@@ -3,6 +3,41 @@
 
 const database = [
     {
+        title: `Eraserhead`,
+        author: 'Bruno Lusardi',
+        author_path: 'bruno_lusardi',
+        article_path: '/articoli/eraserhead',
+        img: '/assets/eraserhead.jpg',
+        description: `Guardando fotogramma per fotogramma, che
+        assieme compongono sequenza dopo sequenza, si ha la
+        conferma, oltre che la sensazione, che il film sia un
+        ricettacolo di oscurità.`,
+        category: 'cinema'
+    },
+    {
+        title: `The Halloween`,
+        author: 'Bruno Lusardi',
+        author_path: 'bruno_lusardi',
+        article_path: '/articoli/the-halloween',
+        img: '/assets/halloween_carpenter.jpeg',
+        description: `The Halloween di John Carpenter, sebbene dicasi pure
+        slasher movie, è un horror movie, che nella storiografia del
+        cinema ricopre un ruolo importante: sparti-acque; matrice;
+        unicum; ispiratore; eccetera: quello che volete.`,
+        category: 'cinema'
+    },
+    {
+        title: `Murder on a train`,
+        author: 'Bruno Lusardi',
+        author_path: 'bruno_lusardi',
+        article_path: '/articoli/murder-on-a-train',
+        img: '/assets/murder-on-a-train.jpg',
+        description: `Pollock, tramite la consapevolezza dei
+        desideri e della modestia del pubblico, acquistò da Agatha
+        Christie molti litri di tè ma pochi litri di sangue.`,
+        category: 'cinema'
+    },
+    {
         title: `I hired a contract killer`,
         author: 'Bruno Lusardi',
         author_path: 'bruno_lusardi',
