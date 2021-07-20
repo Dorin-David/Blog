@@ -1,7 +1,57 @@
 /* Mock database before real database setup */
 
-
 const database = [
+    {
+        title: `Lo yoga e l'Occidente`,
+        author: 'Dorin David',
+        header: `Introduzione - la scissione dello spirito occidentale`,
+        author_path: 'dorin_david',
+        article_path: '/articoli/yoga-e-occidente',
+        img: '/assets/jung_india.jpg',
+        description: `Jung sulle ragioni storiche e psicologicche dell'incontro affascinante tra l'Occidente e lo Yoga`,
+        category: 'filosofia',
+        collection: "Lo yoga e l'Occidente",
+        collection_path: '/raccolte/yoga-e-occidente',
+        orderCollection: 1,
+        previousArticle: null,
+        nextArticle: null,
+        position: 'top'
+    },
+    {
+        title: `Film Blu`,
+        author: 'Bruno Lusardi',
+        author_path: 'bruno_lusardi',
+        article_path: '/articoli/film-blu',
+        img: '/assets/film-blu.png',
+        description: `Film Blu, presenta una moglie compositrice che perde un
+        marito compositore. Ella, completamente distrutta, cerca di
+        cambiare vita ovvero di ricominciare. Si trasferisce – e qui Kieslowski 
+        cala l’asso del genio.`,
+        category: 'cinema',
+        position: 'right'
+    },
+    {
+        title: `Una giornata particolare`,
+        author: 'Bruno Lusardi',
+        author_path: 'bruno_lusardi',
+        article_path: '/articoli/una-giornata-particolare',
+        img: '/assets/una-giornata-particolare.jpg',
+        description: `Una trista casalinga ed un triste propagandista: come può la giornata
+        non essere particolare?`,
+        category: 'cinema'
+    },
+    {
+        title: `Carnage`,
+        author: 'Bruno Lusardi',
+        author_path: 'bruno_lusardi',
+        article_path: '/articoli/carnage',
+        img: '/assets/carnage.jpg',
+        description: `Rappresentazione della fragilità del rapporto, dell’ipocrisia
+        del rapporto, dell’egoismo del rapporto; si attribuiscano i tre
+        sostantivi anche al singolo, e si avrà così una buona
+        panoramica su Carnage`,
+        category: 'cinema'
+    },
     {
         title: `Eraserhead`,
         author: 'Bruno Lusardi',
@@ -353,7 +403,17 @@ const database = [
     },
 ]
 
-const collections = [
+const collections = [  {
+        collection: "Lo yoga e l'Occidente",
+        author: 'Dorin David',
+        author_path: '/autori/dorin_david',
+        path: '/raccolte/yoga-e-occidente',
+        img: '/assets/jung_india.jpg',
+        category: 'filosofia',
+        description: `In un breve saggio del 1936, Jung esplora i rapporti psicologici e culturali dell'incontro tra l'Occidente e lo yoga...
+         mettendo in guardia l'europeo troppo ingenuo.`,
+    },
+    
     {
         collection: 'Adorno legge Beckett',
         author: 'Luigi Rizzo',

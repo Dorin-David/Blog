@@ -1,4 +1,4 @@
-import router, { useRouter } from 'next/router';
+import { useRouter } from 'next/router';
 import { database, collections } from '../../mock-database';
 import ArticlesList from '../Articles/ArticlesList';
 import style from '../../styles/components/collection.module.css';
@@ -6,7 +6,7 @@ import style from '../../styles/components/collection.module.css';
 function CollectionPage(props) {
   const router = useRouter();
   const collection = database.filter(article => article.collection === props.collection).sort((a, b) => a.orderCollection - b.orderCollection);
-  const info = collections.find(collection => collection.collection == props.collection)
+  const info = collections.find(collection => collection.collection == props.collection);
 
      return (
          <div className={style['collection-page']}>
