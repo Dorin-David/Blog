@@ -1,4 +1,5 @@
 import ArticleWrapper from '../../../components/Articles/Article';
+import Link from 'next/link';
 
 function Article() {
     return (<ArticleWrapper>
@@ -19,7 +20,7 @@ function Article() {
   via di liberazione (taoismo, buddismo ecc) non si accontenta della gnosi; la conoscenza è solo un mezzo (la Dottrina, dice il Buddha, 
   è solo una barca da utilizzare per arrivare dall’<span>altra parte</span>); si lavora sui contenuti dell’inconscio per “bruciarli”. L’analogia con la 
   psicologia non è casuale. Terence McKenna ha definito Eliade (almeno per quanto riguarda lo studio delle religioni) l’erede di Carl Gustav Jung 
-  (il quale ha scritto, tra l’altro, <span>La psicologia del Kundalini-Yoga</span> e <span>Lo Yoga e l'Occidente</span>, quest’ultimo pubblicato l’anno della prima edizione 
+  (il quale ha scritto, tra l’altro, <span>La psicologia del Kundalini-Yoga</span> e <span><Link href="/articoli/yoga-e-occidente">Lo Yoga e l'Occidente</Link></span>, quest’ultimo pubblicato l’anno della prima edizione 
   dello <span>Yoga</span> di Eliade). Jung, lasciatosi alle spalle il positivismo di Freud, pensava che le religioni fossero <span>prodotti spontanei</span> della psiche umana, 
   un tentativo di comprendere l’inconscio (personale e collettivo) tramite miti e simboli. E i miti e i simboli sono i prodotti di un’infinità di fattori, 
   culturali e storici, ma dietro di essi, indipendentemente dalla cultura e dal tempo storico, si nascondono gli stessi grandi interrogativi. 

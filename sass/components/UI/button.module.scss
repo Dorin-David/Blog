@@ -8,6 +8,9 @@
     position: fixed;
     border: none;
     background: none;
+    a {
+        text-decoration: none !important;
+    }
 }
 
 .button:hover {

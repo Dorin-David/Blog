@@ -40,6 +40,9 @@
 .article .info a {
   font-weight: bold;
 }
+.article a {
+  text-decoration: underline;
+}
 .article .credit {
   font-size: 0.9rem;
   color: #787676;
