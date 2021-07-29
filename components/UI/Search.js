@@ -3,8 +3,8 @@ import style from '../../styles/components/search.module.css';
 
 function SearchBar(){
    return <div className={style['search-bar']}>
-       <BiSearch className={style.search}/>
        <input type="text" />
+       <BiSearch className={style.search}/>
    </div>
 }
 

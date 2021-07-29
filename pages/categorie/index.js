@@ -3,7 +3,7 @@ import Header from '../../components/SectionHeader';
 import style from '../../styles/components/category-card.module.css';
 
 //mock category list
-const categories = ['cinema', 'filosofia', 'letteratura', 'raccolte']
+const categories = ['raccolte', 'cinema', 'filosofia', 'letteratura', 'psicologia', 'religioni']
 
 function Categorie(){
     return <>

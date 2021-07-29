@@ -6,23 +6,23 @@
   align-items: center;
   position: relative;
   input {
-      width: 100%;
-      background: none;
-      border: none;
-      outline: none;
-      color: white;
+    width: 100%;
+    padding-left: 0.7rem;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
   }
-  
 }
 
 .search {
-    cursor: pointer;
-    color: white;
-    margin: auto 10px;
-    font-size: 1.8rem;
+  cursor: pointer;
+  color: white;
+  margin: auto 10px;
+  font-size: 1.8rem;
 }
 
-@media (max-width: 350px){
+@media (max-width: 350px) {
   .search-bar {
     width: 100px;
   }

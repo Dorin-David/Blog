@@ -6,12 +6,11 @@ import Collections from '../Collection/Collections';
 
 function CategoryPage(props) {
     const category = props.category;
-    const filteredArticles = database.filter(article => article.category === category)
+    const filteredArticles = database.filter(article => typeof article.category === 'string ' ? article.category === category : article.category.includes(category))
 
     return (<>
         <Header>{category[0].toUpperCase() + category.slice(1)}</Header>
         <div>
-            {/* <h1>Raccolte</h1> */}
         <Collections filter={{category}}/>
         </div>
         <h1>Articoli</h1>
