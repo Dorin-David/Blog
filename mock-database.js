@@ -4,17 +4,45 @@ const database = [
     {
         title: `Lo yoga e l'Occidente`,
         author: 'Dorin David',
-        header: `Introduzione - la scissione dello spirito occidentale`,
+        header: `Conclusione`,
         author_path: 'dorin_david',
-        article_path: '/articoli/yoga-e-occidente',
+        article_path: '/articoli/yoga-e-occidente/parte3',
         img: '/assets/jung_india.jpg',
-        description: `Jung sulle ragioni storiche e psicologicche dell'incontro affascinante tra l'Occidente e lo Yoga`,
+        description: `Quel che dovrebbe fare l'occidentale. Analogie tra lo yoga e la psicologia moderna.`,
         category: 'filosofia',
         collection: "Lo yoga e l'Occidente",
         collection_path: '/raccolte/yoga-e-occidente',
-        orderCollection: 1,
-        previousArticle: null,
+        orderCollection: 2,
+        previousArticle: '/articoli/yoga-e-occidente/parte2',
         nextArticle: null,
+        position: 'top'
+    },   
+    {
+        title: `Carnage`,
+        author: 'Bruno Lusardi',
+        author_path: 'bruno_lusardi',
+        article_path: '/articoli/carnage',
+        img: '/assets/carnage.jpg',
+        description: `Rappresentazione della fragilità del rapporto, dell’ipocrisia
+        del rapporto, dell’egoismo del rapporto; si attribuiscano i tre
+        sostantivi anche al singolo, e si avrà così una buona
+        panoramica su Carnage`,
+        category: 'cinema'
+    },
+    {
+        title: `Lo yoga e l'Occidente`,
+        author: 'Dorin David',
+        header: `Yoga: religione e scienza`,
+        author_path: 'dorin_david',
+        article_path: '/articoli/yoga-e-occidente/parte2',
+        img: '/assets/jung_india.jpg',
+        description: `Mitologemi, simboli e archetipi. Sui pericoli di indebite appropriazioni spirituali. `,
+        category: 'filosofia',
+        collection: "Lo yoga e l'Occidente",
+        collection_path: '/raccolte/yoga-e-occidente',
+        orderCollection: 2,
+        previousArticle: '/articoli/yoga-e-occidente',
+        nextArticle: '/articoli/yoga-e-occidente/parte3',
         position: 'top'
     },
     {
@@ -31,6 +59,22 @@ const database = [
         position: 'right'
     },
     {
+        title: `Lo yoga e l'Occidente`,
+        author: 'Dorin David',
+        header: `La scissione dello spirito occidentale`,
+        author_path: 'dorin_david',
+        article_path: '/articoli/yoga-e-occidente',
+        img: '/assets/jung_india.jpg',
+        description: `Carl Gustav Jung sulle ragioni storiche e psicologicche dell'incontro affascinante tra l'Occidente e lo Yoga`,
+        category: 'filosofia',
+        collection: "Lo yoga e l'Occidente",
+        collection_path: '/raccolte/yoga-e-occidente',
+        orderCollection: 1,
+        previousArticle: null,
+        nextArticle: '/articoli/yoga-e-occidente/parte2',
+        position: 'top'
+    },
+    {
         title: `Una giornata particolare`,
         author: 'Bruno Lusardi',
         author_path: 'bruno_lusardi',
@@ -38,18 +82,6 @@ const database = [
         img: '/assets/una-giornata-particolare.jpg',
         description: `Una trista casalinga ed un triste propagandista: come può la giornata
         non essere particolare?`,
-        category: 'cinema'
-    },
-    {
-        title: `Carnage`,
-        author: 'Bruno Lusardi',
-        author_path: 'bruno_lusardi',
-        article_path: '/articoli/carnage',
-        img: '/assets/carnage.jpg',
-        description: `Rappresentazione della fragilità del rapporto, dell’ipocrisia
-        del rapporto, dell’egoismo del rapporto; si attribuiscano i tre
-        sostantivi anche al singolo, e si avrà così una buona
-        panoramica su Carnage`,
         category: 'cinema'
     },
     {
@@ -411,7 +443,7 @@ const collections = [  {
         img: '/assets/jung_india.jpg',
         category: 'filosofia',
         description: `In un breve saggio del 1936, Jung esplora i rapporti psicologici e culturali dell'incontro tra l'Occidente e lo yoga...
-         mettendo in guardia l'europeo troppo ingenuo.`,
+         mettendo in guardia l'occidentale da appropriazioni indebite.`,
     },
     
     {
