@@ -15,7 +15,8 @@ const database = [
         orderCollection: 2,
         previousArticle: '/articoli/yoga-e-occidente/parte2',
         nextArticle: null,
-        position: 'top'
+        position: 'top',
+        tags: ['jung', 'yoga', 'psicologia', 'oriente', 'india']
     },   
     {
         title: `Carnage`,
@@ -27,7 +28,8 @@ const database = [
         del rapporto, dell’egoismo del rapporto; si attribuiscano i tre
         sostantivi anche al singolo, e si avrà così una buona
         panoramica su Carnage`,
-        category: 'cinema'
+        category: 'cinema',
+        tags: []
     },
     {
         title: `Lo yoga e l'Occidente`,
@@ -43,7 +45,8 @@ const database = [
         orderCollection: 2,
         previousArticle: '/articoli/yoga-e-occidente',
         nextArticle: '/articoli/yoga-e-occidente/parte3',
-        position: 'top'
+        position: 'top',
+        tags: ['jung', 'yoga', 'psicologia', 'oriente', 'india']
     },
     {
         title: `Film Blu`,
@@ -72,7 +75,8 @@ const database = [
         orderCollection: 1,
         previousArticle: null,
         nextArticle: '/articoli/yoga-e-occidente/parte2',
-        position: 'top'
+        position: 'top',
+        tags: ['jung', 'yoga', 'psicologia', 'oriente', 'india']
     },
     {
         title: `Una giornata particolare`,
@@ -159,7 +163,8 @@ const database = [
         collection_path: '/raccolte/lo-yoga-mircea-eliade',
         orderCollection: 2,
         previousArticle: '/articoli/lo-yoga',
-        nextArticle: null
+        nextArticle: null,
+        tags: ['Eliade', 'yoga', 'psicologia', 'filosofia', 'oriente', 'India']
     },
     {
         title: `Kynodontas`,
@@ -186,7 +191,8 @@ const database = [
         collection_path: '/raccolte/lo-yoga-mircea-eliade',
         orderCollection: 1,
         previousArticle: null,
-        nextArticle: '/articoli/lo-yoga/parte2'
+        nextArticle: '/articoli/lo-yoga/parte2',
+        tags: ['Eliade', 'yoga', 'psicologia', 'filosofia', 'oriente', 'India']
       
     },
     {
