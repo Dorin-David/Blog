@@ -12,11 +12,11 @@ const database = [
         category: ['filosofia', 'psicologia', 'religioni'],
         collection: "Lo yoga e l'Occidente",
         collection_path: '/raccolte/yoga-e-occidente',
-        orderCollection: 2,
+        orderCollection: 3,
         previousArticle: '/articoli/yoga-e-occidente/parte2',
         nextArticle: null,
         position: 'top',
-        tags: ['jung', 'yoga', 'psicologia', 'oriente', 'india']
+        tags: ['jung', 'yoga', 'psicologia', 'oriente', 'india', 'Cioran']
     },   
     {
         title: `Carnage`,

@@ -9,7 +9,7 @@ function Tags(props) {
             <>
                 <h3 className={style.info}>Tag:</h3>
                 <ul className={style.tags}>
-                    {props.tags.map(tag => <li key={tag} onClick={() => console.log(router)}>{tag.toUpperCase()}</li>)}
+                    {props.tags.map(tag => <li key={tag} onClick={() => router.push(`/search/${tag.toLowerCase()}`)}>{tag}</li>)}
                 </ul>
             </>
         )
