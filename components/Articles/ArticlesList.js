@@ -28,8 +28,8 @@ function ArticlesList(props) {
         }
         setArticles(data)
 
-    }, [offset])
-
+    }, [offset, props.articles])
+    
     return (<>
         {articles.map(article => {
             return <ArticleCard

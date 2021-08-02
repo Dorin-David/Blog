@@ -16,7 +16,7 @@ const database = [
         previousArticle: '/articoli/yoga-e-occidente/parte2',
         nextArticle: null,
         position: 'top',
-        tags: ['jung', 'yoga', 'psicologia', 'oriente', 'india', 'Cioran']
+        tags: ['jung', 'yoga', 'psicologia', 'oriente', 'india', 'cioran']
     },   
     {
         title: `Carnage`,
@@ -164,7 +164,7 @@ const database = [
         orderCollection: 2,
         previousArticle: '/articoli/lo-yoga',
         nextArticle: null,
-        tags: ['Eliade', 'yoga', 'psicologia', 'filosofia', 'oriente', 'India']
+        tags: ['eliade', 'yoga', 'psicologia', 'filosofia', 'oriente', 'india']
     },
     {
         title: `Kynodontas`,
@@ -192,7 +192,7 @@ const database = [
         orderCollection: 1,
         previousArticle: null,
         nextArticle: '/articoli/lo-yoga/parte2',
-        tags: ['Eliade', 'yoga', 'psicologia', 'filosofia', 'oriente', 'India']
+        tags: ['eliade', 'yoga', 'psicologia', 'filosofia', 'oriente', 'india']
       
     },
     {
@@ -399,7 +399,8 @@ const database = [
         article_path: '/articoli/pulp-fiction',
         img: '/assets/pulp_fiction.jpeg',
         description: `Siamo negli anni ’90, e in pochi si possono vantare di poter scrivere e dirigere una simile, geniale e deliziosa cazzata.`,
-        category: 'cinema'
+        category: 'cinema',
+        tags: ['quentin tarantino', 'enrico ghezzi',]
 
     },
     {

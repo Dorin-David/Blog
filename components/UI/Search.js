@@ -10,11 +10,10 @@ function SearchBar() {
      function lookUp(){
          if(!query) return
         const pattern = query.trim().toLowerCase().replace(' ', '-')
-        setQuery('')
         if(router.pathname.startsWith('/search')) router.push(pattern)
         else router.push(`search/${pattern}`)
+        setQuery('')
      }
-
     return <div className={style['search-bar']}>
         <input type="text" onChange={e => setQuery(e.target.value)} value={query}/>
         <BiSearch className={style.search} onClick={lookUp}/>
