@@ -3,7 +3,6 @@ import Header from '../../components/SectionHeader';
 import {database } from '../../mock-database';
 import Collections from '../Collection/Collections';
 
-
 function CategoryPage(props) {
     const category = props.category;
     const filteredArticles = database.filter(article => typeof article.category === 'string ' ? article.category === category : article.category.includes(category))
