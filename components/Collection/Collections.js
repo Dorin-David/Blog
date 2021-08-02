@@ -7,7 +7,12 @@ function Collections(props) {
     let filteredCollection = collections;
 
     if (filterCriteria.length > 0) {
-        filteredCollection = collections.filter(collection => filterCriteria.every(filter => collection[filter] === props.filter[filter]))
+        filteredCollection = collections.filter(collection => filterCriteria.every(filter =>  {
+             let match = false;
+            if(typeof collection[filter] === 'string') match = collection[filter] === props.filter[filter];
+            else match = collection[filter].includes(props.filter[filter])
+            return match
+        }))
     }
 
     return (

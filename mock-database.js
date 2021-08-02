@@ -447,7 +447,7 @@ const collections = [  {
         author_path: '/autori/dorin_david',
         path: '/raccolte/yoga-e-occidente',
         img: '/assets/jung_india.jpg',
-        category: 'filosofia',
+        category: ['psicologia', 'filosofia'],
         description: `In un breve saggio del 1936, Jung esplora i rapporti psicologici e culturali dell'incontro tra l'Occidente e lo yoga...
          mettendo in guardia l'occidentale da appropriazioni indebite.`,
     },
