@@ -1,14 +1,15 @@
 .tags {
-  display: flex;
   min-width: 250px;
   width: 70%;
+  display: flex;
+  flex-wrap: wrap;
   margin: 0.7rem auto;
   padding: 0;
 }
 .tags li {
   cursor: pointer;
   list-style: none;
-  margin: 0 0.4rem;
+  margin: 0.5rem 0.4rem;
   padding: 0.4rem;
   background: #333131;
   border-radius: 4px;

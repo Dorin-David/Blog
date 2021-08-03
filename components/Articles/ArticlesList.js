@@ -29,7 +29,7 @@ function ArticlesList(props) {
         setArticles(data)
 
     }, [offset, props.articles])
-    
+
     return (<>
         {articles.map(article => {
             return <ArticleCard
@@ -44,7 +44,8 @@ function ArticlesList(props) {
                 position={article.position ? article.position : null}
             />
         })}
-        <ReactPaginate
+        {/* check if pagination is necessary (above 5 articles) */}
+        {  props.articles.length > 5 && <ReactPaginate
         previousLabel={"prev"}
         nextLabel={"next"}
         breakLabel={"..."}
@@ -56,7 +57,7 @@ function ArticlesList(props) {
         containerClassName={style.pagination}
         subContainerClassName={"pages pagination"}
         activeClassName={style.active} 
-        />
+        />}
     </>)
 }
 

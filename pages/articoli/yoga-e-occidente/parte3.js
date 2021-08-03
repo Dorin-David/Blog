@@ -40,14 +40,7 @@ function Article() {
             all’inconscio. Perlopiù, la coscienza è intensa e angusta fino allo spasimo, e perciò non può essere maggiormente accentuata. Al contrario, bisogna aiutare
             quanto più possibile l’inconscio a raggiungere la coscienza per farla uscire dal suo irrigidimento”. Il saggio si conclude con un’affermazione che ha del profetico:
             “l’Occidente produrrà nel corso dei secoli il proprio yoga, e questo sulla base creata dal cristianesimo”. <br />
-            Il saggio, ricordiamolo, fu scritto nel 1936, quando le masse marciavano minacciose e ingurgitavano totalitarismi.
-            Quasi un secolo fa; un secolo moderno, che equivale, quanto a cambiamenti e dinamismo, a secoli di una storia come quella medievale o indiana.
-            Che cos’è cambiato da allora? L’occidentale ha compreso meglio il suo inconscio? È uscito dal suo irrigidimento? Se da una parte la sua coscienza è certamente più aperta,
-            dall’altra egli vive in un mondo molto più veloce e caotico. Le coscienze sembrano ancora più tese di prima, se possibile; religioni esotiche sono diventate banali prodotti del consumismo spirituale:
-            si visiti una grande città, o anche solo un paesino: i centri yoga pullulano quanto le palestre. Lo yoga si può imparare da casa, guardando tutorial di istruttori e istruttrici sodi e sorridenti.
-            L’India, nel frattempo, è diventata una nazione, è entrata a far parte della moribonda Storia. Milioni di indiani, oggi, non ne sanno più dello yoga di quanto ne sapesse l’europeo dei tempi di Jung.
-            Dobbiamo anzi chiederci: esiste ancora una differenza tra l’Occidente e l’Oriente attuale? Eppure, nonostante questa massiccia importazione e riscoperta di religioni e filosofie, <Link href="https://apps.who.int/gb/ebwha/pdf_files/EB130/B130_9-en.pdf" target="_blank">entro il 2030 la depressione sarà il male più diffuso al mondo</Link>. Se le religioni sono metodi terapeutici psichici, evidentemente esse non stanno venendo utilizzate a dovere.
-
+            
         </p>
     </ArticleWrapper>)
 }

@@ -147,7 +147,8 @@ const database = [
         collection_path: '/raccolte/adorno-legge-beckett',
         orderCollection: 6,
         previousArticle: '/articoli/finale-di-partita/parte5',
-        nextArticle: null
+        nextArticle: null,
+        tags: ['adorno', 'beckett', 'filosofia estetica']
     },
     {
         title: `Mircea Eliade - "Lo Yoga"`,
@@ -230,7 +231,8 @@ const database = [
         collection_path: '/raccolte/adorno-legge-beckett',
         orderCollection: 5,
         previousArticle: '/articoli/finale-di-partita/parte4',
-        nextArticle: '/articoli/finale-di-partita/parte6'
+        nextArticle: '/articoli/finale-di-partita/parte6',
+        tags: ['adorno', 'beckett', 'filosofia estetica']
     },
     {
         title: 'Le voci',
@@ -261,7 +263,8 @@ const database = [
         collection_path: '/raccolte/adorno-legge-beckett',
         orderCollection: 4,
         previousArticle: '/articoli/finale-di-partita/parte3',
-        nextArticle: '/articoli/finale-di-partita/parte5'
+        nextArticle: '/articoli/finale-di-partita/parte5',
+        tags: ['adorno', 'beckett', 'filosofia estetica']
     },
     {
         title: 'Adorno e \"Finale di Partita\"',
@@ -277,7 +280,8 @@ const database = [
         collection_path: '/raccolte/adorno-legge-beckett',
         orderCollection: 3,
         previousArticle: '/articoli/finale-di-partita/parte2',
-        nextArticle: '/articoli/finale-di-partita/parte4'
+        nextArticle: '/articoli/finale-di-partita/parte4',
+        tags: ['adorno', 'beckett', 'filosofia estetica']
     },
     {
     title: `Ultimo tango a Parigi`,
@@ -316,7 +320,8 @@ const database = [
         collection_path: '/raccolte/adorno-legge-beckett',
         orderCollection: 2,
         previousArticle: '/articoli/finale-di-partita',
-        nextArticle: '/articoli/finale-di-partita/parte3'
+        nextArticle: '/articoli/finale-di-partita/parte3',
+        tags: ['adorno', 'beckett', 'filosofia estetica']
     },
     {
         title: 'Ordet',
@@ -354,7 +359,8 @@ const database = [
         collection_path: '/raccolte/adorno-legge-beckett',
         orderCollection: 1,
         previousArticle: null,
-        nextArticle: '/articoli/finale-di-partita/parte2'
+        nextArticle: '/articoli/finale-di-partita/parte2',
+        tags: ['adorno', 'beckett', 'filosofia estetica']
     },
     {
         title: 'Parasite',
