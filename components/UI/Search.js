@@ -11,7 +11,7 @@ function SearchBar() {
          if(!query) return
         const pattern = query.trim().toLowerCase().replace(' ', '-')
         if(router.pathname.startsWith('/search')) router.push(pattern)
-        else router.push(`search/${pattern}`)
+        else router.replace(`/search/${pattern}`)
         setQuery('')
      }
     return <div className={style['search-bar']}>

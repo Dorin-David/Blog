@@ -19,7 +19,7 @@ function Collections(props) {
         <>
             {filteredCollection.length > 0 && !props.hideSectionTitles ? <h1>Raccolte</h1> : null}
             <div className={style['collection-layout']}>
-                <CollectionList collectionList={filteredCollection} />
+                <CollectionList collectionList={filteredCollection} hideAuthor={props.hideAuthor} />
             </div>
         </>
     )

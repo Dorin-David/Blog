@@ -13,19 +13,20 @@ function ArticleCard(props) {
         }
 
     }
-    return <div className={style.card} 
-                onClick={onNavigation}
-                >
+    console.log(props.hideAuthor)
+    return <div className={style.card}
+        onClick={onNavigation}
+    >
         <div className={style['header-wrapper']}>
-        <h1>{props.title}</h1>
-        <p className={style.header}>{props.header}</p>
+            <h1>{props.title}</h1>
+            <p className={style.header}>{props.header}</p>
         </div>
         <div className={style['description-wrapper']}>
-        <p className={style.author}> <Link href={props.author_path}>{props.author}</Link></p>
-        <p>{props.description}</p>
+            {!props.hideAuthor ? <p className={style.author}> <Link href={props.author_path}>{props.author}</Link></p> : null}
+            <p>{props.description}</p>
         </div>
-        {props.img && <img src={props.img} alt={props.title} style={props.position ? {objectPosition: props.position} : null}/>}
-        <div className={style.overlay} style={ !props.img ? {background: 'black'} : null}></div>
+        {props.img && <img src={props.img} alt={props.title} style={props.position ? { objectPosition: props.position } : null} />}
+        <div className={style.overlay} style={!props.img ? { background: 'black' } : null}></div>
     </div>
 }
 

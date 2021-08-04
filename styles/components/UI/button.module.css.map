@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../../../sass/components/UI/button.module.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AACA;EACI;;;AAIR;EACI;;;AAIH;EACG;EACA;;;AAGH;EACG;EACA;;;AAGJ;EACI;IACI;IACA;IACA;;;EAEJ;IACI","file":"button.module.css"}
+{"version":3,"sourceRoot":"","sources":["../../../sass/components/UI/button.module.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AACA;EACI;;;AAIR;EACI;;;AAIH;EACG;EACA;;;AAGH;EACG;EACA;;;AAGJ;EACI;IACI;IACA;IACA","file":"button.module.css"}

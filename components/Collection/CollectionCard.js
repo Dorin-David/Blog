@@ -19,7 +19,7 @@ function CollectionCard(props){
         <div className={style.card} onClick={onNavigation}>
         <div className={style['header-wrapper']}>
         <h1>{props.title}</h1>
-        <p className={style.author}> <Link href={props.author_path}>{props.author}</Link></p>
+        {!props.hideAuthor ? <p className={style.author}> <Link href={props.author_path}>{props.author}</Link></p> : null}
         </div>
         {props.img && <img src={props.img} alt={props.title} style={props.position ? {objectPosition: props.position} : null}/>}
         <div className={style.overlay} style={ !props.img ? {background: 'black'} : null}></div>

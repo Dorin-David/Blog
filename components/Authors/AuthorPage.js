@@ -14,7 +14,7 @@ function AuthorPage(props) {
     collections = (
       <>
         <Header>Raccolte</Header>
-        <Collections filter={{ author: props.author }} hideSectionTitles={true} />
+        <Collections filter={{ author: props.author }} hideSectionTitles={true} hideAuthor={true}/>
       </>
     )
   }
@@ -27,7 +27,7 @@ function AuthorPage(props) {
       />
       {collections}
       <Header>Articoli</Header>
-      <ArticlesList articles={authorArticles} />
+      <ArticlesList articles={authorArticles} hideAuthor={true}/>
     </>
   )
 }

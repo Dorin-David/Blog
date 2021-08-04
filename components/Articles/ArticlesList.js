@@ -42,6 +42,7 @@ function ArticlesList(props) {
                 description={article.description}
                 img={article.img}
                 position={article.position ? article.position : null}
+                hideAuthor={props.hideAuthor}
             />
         })}
         {/* check if pagination is necessary (above 5 articles) */}

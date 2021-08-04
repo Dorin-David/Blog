@@ -23,10 +23,10 @@ function ArticlesArrows(props) {
         </Button>
     }
 
-    return <div className='button-wrapper'>
+    return (<div style={{ display: 'flex', justifyContent: 'center' }}>
         {buttonSx}
         {buttonDx}
-    </div>
+    </div>)
 
 }
 

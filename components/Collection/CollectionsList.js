@@ -9,6 +9,7 @@ function CollectionList(props){
           img={collection.img}
           description={collection.description}
           path={collection.path}
+          hideAuthor={props.hideAuthor}
          
         />
     })
