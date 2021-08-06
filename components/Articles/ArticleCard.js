@@ -7,13 +7,12 @@ function ArticleCard(props) {
     function onNavigation(event) {
         const target = event.target
         if (target.tagName === 'A') {
-            router.replace(`/autori/${props.author_path}`)
+            router.push(`/autori/${props.author_path}`)
         } else {
             router.push(props.path)
         }
 
     }
-    console.log(props.hideAuthor)
     return <div className={style.card}
         onClick={onNavigation}
     >
@@ -22,7 +21,7 @@ function ArticleCard(props) {
             <p className={style.header}>{props.header}</p>
         </div>
         <div className={style['description-wrapper']}>
-            {!props.hideAuthor ? <p className={style.author}> <Link href={props.author_path}>{props.author}</Link></p> : null}
+            {!props.hideAuthor ? <p className={style.author}> <Link href={`/autori/${props.author_path}`}>{props.author}</Link></p> : null}
             <p>{props.description}</p>
         </div>
         {props.img && <img src={props.img} alt={props.title} style={props.position ? { objectPosition: props.position } : null} />}
