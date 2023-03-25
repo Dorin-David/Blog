@@ -5,11 +5,10 @@ import style from '../styles/components/nav-bar.module.css';
 
 function NavBar(props) {
     return <nav className={style['nav-bar']}>
-       <h1 className={style['main-header']}><a href="/">Dintorni</a></h1>        
-        <NavLinks />
+        <h1 className={style['main-header']}><a href="/">Dintorni</a></h1>        
+        <NavLinks closeNavModal={props.onCloseNavModal}/>
         <Search />
         <BackDrop triggerBackdrop={props.clickNavButton} />
-
     </nav>
 }
 

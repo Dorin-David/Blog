@@ -5,7 +5,7 @@ function NavModal(props) {
 
     return <>
         <div className={style['nav-modal']}>
-            <NavLinks onNavigation={props.closeNavModal}/>
+            <NavLinks closeNavModal={props.closeNavModal}/>
         </div>
         <div className={style['nav-modal-backdrop']} onClick={props.clickBackdrop}> </div>
     </>

@@ -9,13 +9,14 @@ function Navigation() {
     function onOpenNavModal() {
         setShowModal(true)
     }
+    
     function onCloseNavModal(){
         setShowModal(false)
     }
 
     return <>
-    <NavBar clickNavButton={onOpenNavModal}/>
-        {showModal && <NavModal clickBackdrop={onCloseNavModal} closeNavModal={onCloseNavModal}/>}
+        <NavBar clickNavButton={onOpenNavModal} />
+            {showModal && <NavModal clickBackdrop={onCloseNavModal} closeNavModal={onCloseNavModal}/>}
     </>
 }
 
