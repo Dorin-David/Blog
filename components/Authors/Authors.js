@@ -9,16 +9,16 @@ function Authors() {
         router.push(author)
     }
 
-    const mapAuthors = Object.keys(authors)
+    const mapAuthors = Object.values(authors);
 
     return mapAuthors.map(author => {
-        const info = authors[author]
         return <AuthorCard
-            author_name={info.name}
-            author_bio={info.bio}
-            img={info.img}
-            click={onNavigateToAuthor.bind(null, info.author_path)}
+            author_name={author.name}
+            author_bio={author.bio}
+            img={author.img}
+            click={onNavigateToAuthor.bind(null, author.author_path)}
             navigate={true}
+            key={author.author_path}
         />
     })
 }
