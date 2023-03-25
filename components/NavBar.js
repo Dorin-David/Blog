@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import BackDrop from './UI/BackDrop';
 import NavLinks from './NavLinks';
 import Search from './UI/Search';
@@ -5,7 +6,7 @@ import style from '../styles/components/nav-bar.module.css';
 
 function NavBar(props) {
     return <nav className={style['nav-bar']}>
-        <a href="/" onClick={ event => event.preventDefault() } className={style['main-header']}>Dintorni</a>    
+        <Link href="/" className={style['main-header']}>Dintorni</Link>    
         <NavLinks closeNavModal={props.onCloseNavModal}/>
         <Search />
         <BackDrop triggerBackdrop={props.clickNavButton} />
