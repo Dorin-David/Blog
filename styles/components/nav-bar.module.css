@@ -12,19 +12,18 @@
   z-index: 50;
   background: #121212;
 }
-.nav-bar a {
+.nav-bar a:not(.main-header) {
   cursor: pointer;
   color: white;
   margin: auto 10px;
   font-size: 1.2rem;
 }
-.nav-bar .main-header a {
-  font-size: 1.7rem;
-}
 
 .main-header {
+  font-size: 1.7rem;
+  font-weight: bold;
+  flex: 1 1;
   color: white;
-  margin-right: auto;
   margin-left: 70px;
 }
 
