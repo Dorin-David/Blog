@@ -3,7 +3,7 @@ import ArticleCard from './ArticleCard';
 import ReactPaginate from 'react-paginate';
 import style from '../../styles/components/pagination.module.css';
 
-function ArticlesList(props) {
+function StaticArticlesList(props) {
 
     const [perPage] = useState(5);
     const [pageCount, setPageCount] = useState(0);
@@ -62,4 +62,4 @@ function ArticlesList(props) {
     </>)
 }
 
-export default ArticlesList
+export default StaticArticlesList

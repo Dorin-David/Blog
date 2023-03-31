@@ -1,6 +1,6 @@
 import { database } from '../mock-database';
-import ArticlesList from '../components/Articles/ArticlesList';
+import StaticArticlesList from '../components/Articles/StaticArticlesList';
 
-const Home = () => <ArticlesList articles={database} />;
+const Home = () => <StaticArticlesList articles={database} />;
 
 export default Home
