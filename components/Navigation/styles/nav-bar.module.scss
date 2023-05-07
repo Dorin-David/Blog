@@ -10,11 +10,11 @@
     top: 0;
     left: 0;
     z-index: 50;
-    background: #121212;
+    background: $black;
 
     a {
         cursor: pointer;
-        color: white;
+        color: $white;
         margin: auto 10px;
         font-size: 1.2rem;
     }
@@ -25,7 +25,7 @@
 }
 
 .main-header {
-   color: white;
+   color: $white;
    margin-right: auto;
    margin-left: 70px;
 }
