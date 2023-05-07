@@ -1,5 +1,6 @@
 import Navigation from '../components/Navigation';
-import '../styles/main.css';
+import '../styles/base/normalize.css';
+import '../styles/base/base.css';
 
 function MyApp({ Component, pageProps }) {
   return <>
