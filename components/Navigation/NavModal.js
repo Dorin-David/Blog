@@ -1,5 +1,4 @@
 import NavLinks from './NavLinks';
-import style from '../styles/components/nav-modal.module.css'
 
 function NavModal(props) {
 

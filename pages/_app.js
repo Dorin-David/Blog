@@ -1,4 +1,4 @@
-import Navigation from '../components/Navigation';
+import Navigation from '../components/Navigation/Navigation';
 import '../styles/base/normalize.css';
 import '../styles/base/base.css';
 
