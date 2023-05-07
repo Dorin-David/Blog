@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import ArticleCard from './ArticleCard';
 
-function Articles(props) {
-    const API = props.API;
+function Articles() {
+    const API = process.env.NEXT_PUBLIC_CMS_API;
     const [articles, setArticles] = useState([]);
     const [error, setError] = useState(false);
     const [loading, setLoading] = useState(null);
