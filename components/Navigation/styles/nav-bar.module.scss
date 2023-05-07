@@ -1,7 +1,7 @@
 .nav-bar {
-    min-width: 300px;
+    min-width: 30rem;
     width: 100%;
-    height: 50px;
+    height: 5rem;
     padding-right: 1rem;
     display: flex;
     justify-content: flex-end;
@@ -9,13 +9,13 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 50;
-    background: $black;
+    z-index: $level-five;
+    background-color: $black;
 
     a {
         cursor: pointer;
         color: $white;
-        margin: auto 10px;
+        margin: auto 1rem;
         font-size: 1.2rem;
     }
   
@@ -27,22 +27,9 @@
 .main-header {
    color: $white;
    margin-right: auto;
-   margin-left: 70px;
+   margin-left: 7rem;
 }
 
 .nav-links {
     display: flex;
-}
-
-@media (max-width: 750px){
-    .nav-bar {
-        justify-content: center;
-        .nav-links {
-            display: none;
-        }
-    }
-    .main-header {
-        margin-left: 1rem;
-    }
- 
 }
