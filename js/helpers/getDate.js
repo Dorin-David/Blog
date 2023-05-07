@@ -6,5 +6,5 @@
 export function parseDate(timestamp) {
     const dateObj = new Date(timestamp);
 
-    return dateObj.toLocaleDateString('en-GB');
+    return dateObj.toLocaleDateString('en-GB', { month: 'long', day: 'numeric', year: 'numeric' });
 }
